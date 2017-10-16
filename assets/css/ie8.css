@@ -1,26 +1,43 @@
 /*
-	Aerial by HTML5 UP
+	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Header */
+/* Button */
 
-	#header nav a {
-		position: relative;
-		border: solid 1px #fff;
-		border-radius: 100%;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+	.button {
+		border: solid 2px !important;
 	}
 
-		#header nav a:before {
-			border: 0;
+		.button.next {
+			padding-right: 1.75em;
 		}
 
-/* Footer */
+			.button.next:before, .button.next:after {
+				display: none;
+			}
 
-	#footer {
-		background-image: url("images/ie/footer.png");
-		background-position: bottom left;
-		background-repeat: repeat-x;
+/* Tiles */
+
+	.tiles article {
+		width: 50%;
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+		background-size: cover;
+	}
+
+/* Banner */
+
+	#banner {
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+	}
+
+		#banner:after {
+			display: none;
+		}
+
+/* Menu */
+
+	#menu {
+		background: #242943;
 	}

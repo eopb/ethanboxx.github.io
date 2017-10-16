@@ -4,32 +4,47 @@
 @import 'libs/skel';
 
 /*
-	Aerial by HTML5 UP
+	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Header */
+/* Button */
 
-	#header {
-		nav {
-			a {
-				position: relative;
-				border: solid 1px _palette(fg);
-				border-radius: 100%;
-				-ms-behavior: url('assets/js/ie/PIE.htc');
+	.button {
+		border: solid 2px !important;
 
-				&:before {
-					border: 0;
-				}
+		&.next {
+			padding-right: 1.75em;
+
+			&:before, &:after {
+				display: none;
 			}
 		}
 	}
 
-/* Footer */
+/* Tiles */
 
-	#footer {
-		background-image: url('images/ie/footer.png');
-		background-position: bottom left;
-		background-repeat: repeat-x;
+	.tiles {
+		article {
+			width: 50%;
+			-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+			background-size: cover;
+		}
+	}
+
+/* Banner */
+
+	#banner {
+		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+
+		&:after {
+			display: none;
+		}
+	}
+
+/* Menu */
+
+	#menu {
+		background: _palette(bg);
 	}
