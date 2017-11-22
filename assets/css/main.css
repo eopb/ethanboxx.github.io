@@ -3416,7 +3416,7 @@
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: fill;
+		background-size: 100%;
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 60vh;
