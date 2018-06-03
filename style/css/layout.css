@@ -1,6 +1,9 @@
 @import url('desktop/layoutDesktop.css') (orientation:landscape);
 @import url('mobile/layoutMobile.css') (orientation:portrait);
 
+body {
+    margin: 0;
+}
 
 div.bodyWrapper {
     display: grid;
