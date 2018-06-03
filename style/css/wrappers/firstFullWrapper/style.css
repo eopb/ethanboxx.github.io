@@ -17,3 +17,13 @@
 .verticalName, .mainHeading, .cornerBackground {
     background-color: blue;
 }
+
+.firstFullWrapperMainBody {
+    font-size: 30px;
+    background-color: red;
+}
+
+.ffwCenterInfo {
+    background-color: lightcyan;
+    padding: 10px;
+}
