@@ -20,8 +20,8 @@ div.firstFullWrapper {
 }
 
 .verticalName, .mainHeading, .cornerBackground {
-    background-color: rgba(0, 0, 0, 0.205);
-    color: aqua;
+    background-color: white;
+    mix-blend-mode: screen;
 }
 
 .firstFullWrapperMainBody {
