@@ -2,12 +2,11 @@
 @import url('mobile/layoutMobile.css') (orientation:portrait);
 
 div.firstFullWrapper {
-    height: 100vh;
+
     display: grid;
     grid-gap: 0px;
-    grid-auto-flow: column;
-    grid-template-columns: min-content auto;
-    grid-template-rows: min-content auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
 }
 
 .verticalName {
@@ -39,4 +38,8 @@ div.firstFullWrapper {
 .ffwCenterInfo {
     grid-column: 2;
     grid-row: 2;
+}
+.secondFullWrapper{
+    grid-column: 1/3;
+    grid-row: 3;
 }
