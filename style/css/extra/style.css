@@ -19,7 +19,7 @@ div.firstFullWrapper {
 
 .verticalName, .mainHeading, .cornerBackground {
     font-size: 50px;
-    background-color: white;
+    background-color: #aaaaaa;
     mix-blend-mode: screen;
     text-shadow: 0 0 5px black;
     font-family: headingText;
@@ -47,6 +47,9 @@ div.ffwCenterInfo p {
 }
 
 .whatIDoCell1, .whatIDoCell2, .whatIDoCell3 {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: auto min-content;
     /* display: block; */
     height: 400px;
     font-family: openSansLight;
@@ -63,6 +66,16 @@ div.ffwCenterInfo p {
     padding: auto;
 
     box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 30px;
+}
+
+div.whatIDo img {
+    height: 100%;
+    margin: auto;
+    filter: invert(100%);
+}
+
+div.whatIDo p {
+    margin: 0;
 }
 
 .whatIDoCell1 {
