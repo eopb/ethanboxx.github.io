@@ -30,7 +30,7 @@ div.firstFullWrapper {
     display: grid;
     grid-gap: 0px;
 
-    grid-template-columns: auto minmax(min-content, 400px) minmax(0, 50px);
+    grid-template-columns: auto minmax(min-content, 400px) auto;
     grid-template-rows: auto minmax(min-content, 400px) minmax(0, 50px);
     grid-column: 2;
     grid-row: 2;
