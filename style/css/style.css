@@ -2,8 +2,8 @@
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 @import url('button.css');
-@import url('wrappers/firstFullWrapper/style.css');
-@import url('wrappers/secondFullWrapper/style.css');
+@import url('extra/style.css');
+
 @font-face {
     font-family: openSansLight;
     src: url("../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf");

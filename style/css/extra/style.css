@@ -3,7 +3,7 @@
 @import url('layout.css');
 
 div.firstFullWrapper {
-    background-image: url("../../../../private/images/banner.jpg");
+    background-image: url("../../../private/images/banner.jpg");
     background-size: cover;
 }
 
@@ -75,4 +75,9 @@ div.ffwCenterInfo p {
 
 .whatIDoCell3{
     grid-column: 6;
+}
+
+div.secondFullWrapper{
+    height: 100%;
+    background-color: aqua;
 }
