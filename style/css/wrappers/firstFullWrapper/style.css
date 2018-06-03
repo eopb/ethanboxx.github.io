@@ -10,16 +10,15 @@ div.firstFullWrapper {
 .verticalName{
     writing-mode: vertical-rl;
     /* text-orientation: upright; */
-    font-size: 100px;
     margin: 0;
 }
 
 .mainHeading {
-    font-size: 100px;
     margin: 0;
 }
 
 .verticalName, .mainHeading, .cornerBackground {
+    font-size: 50px;
     background-color: white;
     mix-blend-mode: screen;
     text-shadow: 0 0 5px black;
