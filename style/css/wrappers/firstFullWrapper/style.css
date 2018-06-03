@@ -23,6 +23,7 @@ div.firstFullWrapper {
     background-color: white;
     mix-blend-mode: screen;
     text-shadow: 0 0 5px black;
+    font-family: headingText;
 }
 
 .firstFullWrapperMainBody {

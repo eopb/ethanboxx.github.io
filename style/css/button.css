@@ -1,5 +1,6 @@
 .button {
     /* display: block; */
+    font-family: openSansLight;
     box-sizing: border-box;
     text-align: center;
     width: auto;
