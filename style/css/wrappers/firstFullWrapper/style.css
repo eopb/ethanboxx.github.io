@@ -31,8 +31,6 @@ div.firstFullWrapper {
 }
 
 .ffwCenterInfo {
-    backdrop-filter: blur(500px);
-    background-color: rgba(0, 0, 0, 0.212);
     padding: 10px;
 }
 
