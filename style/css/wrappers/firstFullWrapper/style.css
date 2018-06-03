@@ -22,6 +22,7 @@ div.firstFullWrapper {
 .verticalName, .mainHeading, .cornerBackground {
     background-color: white;
     mix-blend-mode: screen;
+    text-shadow: 0 0 5px black;
 }
 
 .firstFullWrapperMainBody {
@@ -30,6 +31,11 @@ div.firstFullWrapper {
 }
 
 .ffwCenterInfo {
-    background-color: lightcyan;
+    backdrop-filter: blur(500px);
+    background-color: rgba(0, 0, 0, 0.212);
     padding: 10px;
+}
+
+div.ffwCenterInfo p {
+    filter: none
 }
