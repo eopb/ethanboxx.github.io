@@ -1,6 +1,8 @@
 @import url('desktop/styleDesktop.css') (orientation:landscape);
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
-@import url('button.css');
-@import url('wrappers/firstFullWrapper/style.css');
-@import url('wrappers/secondFullWrapper/style.css');
+
+div.secondFullWrapper{
+    height: 100vh;
+    background-color: aqua;
+}

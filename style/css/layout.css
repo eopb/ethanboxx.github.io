@@ -11,26 +11,4 @@ div.bodyWrapper {
     grid-auto-flow: row;
 }
 
-div.firstFullWrapper {
-    height: 100vh;
-    display: grid;
-    grid-gap: 0px;
-    grid-auto-flow: column;
-    grid-template-columns: min-content auto;
-    grid-template-rows: min-content auto;
-}
 
-.verticalName {
-    grid-column: 1;
-    grid-row: 2;
-
-}
-
-.mainHeading{
-    grid-column: 2;
-}
-
-div.secondFullWrapper{
-    height: 100vh;
-    background-color: aqua;
-}

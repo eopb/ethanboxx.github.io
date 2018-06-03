@@ -1,0 +1,18 @@
+@import url('desktop/styleDesktop.css') (orientation:landscape);
+@import url('mobile/styleMobile.css') (orientation:portrait);
+@import url('layout.css');
+
+.verticalName{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.verticalName {
+    font-size: 100px;
+    margin: 0;
+}
+
+.mainHeading {
+    font-size: 100px;
+    margin: 0;
+}

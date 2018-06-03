@@ -1,0 +1,21 @@
+@import url('desktop/layoutDesktop.css') (orientation:landscape);
+@import url('mobile/layoutMobile.css') (orientation:portrait);
+
+div.firstFullWrapper {
+    height: 100vh;
+    display: grid;
+    grid-gap: 0px;
+    grid-auto-flow: column;
+    grid-template-columns: min-content auto;
+    grid-template-rows: min-content auto;
+}
+
+.verticalName {
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.mainHeading{
+    grid-column: 2;
+}
