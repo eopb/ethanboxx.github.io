@@ -9,7 +9,7 @@ div.firstFullWrapper {
 
 .verticalName{
     writing-mode: vertical-rl;
-    text-orientation: upright;
+    /* text-orientation: upright; */
     font-size: 100px;
     margin: 0;
 }
@@ -20,7 +20,8 @@ div.firstFullWrapper {
 }
 
 .verticalName, .mainHeading, .cornerBackground {
-    background-color: rgba(80, 54, 228, 0.726);
+    background-color: rgba(0, 0, 0, 0.205);
+    color: aqua;
 }
 
 .firstFullWrapperMainBody {
