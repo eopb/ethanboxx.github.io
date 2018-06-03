@@ -2,6 +2,11 @@
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 
+div.firstFullWrapper {
+    background-image: url("../../../../private/images/banner.jpg");
+    background-size: cover;
+}
+
 .verticalName{
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -15,12 +20,12 @@
 }
 
 .verticalName, .mainHeading, .cornerBackground {
-    background-color: blue;
+    background-color: rgba(80, 54, 228, 0.726);
 }
 
 .firstFullWrapperMainBody {
     font-size: 30px;
-    background-color: red;
+
 }
 
 .ffwCenterInfo {
