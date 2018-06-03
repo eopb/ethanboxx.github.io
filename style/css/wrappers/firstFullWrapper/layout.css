@@ -19,3 +19,8 @@ div.firstFullWrapper {
 .mainHeading{
     grid-column: 2;
 }
+
+.cornerBackground {
+    grid-column: 1;
+    grid-row: 1;
+}
