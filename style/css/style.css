@@ -7,3 +7,13 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
 }
+
+.verticalName {
+    font-size: 100px;
+    margin: 0;
+}
+
+.mainHeading {
+    font-size: 100px;
+    margin: 0;
+}
