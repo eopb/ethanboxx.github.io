@@ -2,11 +2,6 @@
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 
-div.fullBodyDiv {
-    background-image: url("../../../../private/images/banner.jpg");
-    background-size: cover;
-}
-
 .verticalName{
     writing-mode: vertical-rl;
     /* text-orientation: upright; */
