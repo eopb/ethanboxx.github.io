@@ -2,70 +2,28 @@
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 
-.verticalName{
-    writing-mode: vertical-rl;
-    /* text-orientation: upright; */
-    margin: 0;
-}
-
-.mainHeading {
-    margin: 0;
-}
-
-.verticalName, .mainHeading, .cornerBackground {
-    font-size: 50px;
-    background-color: #aaaaaa;
-    mix-blend-mode: screen;
-    text-shadow: 0 0 5px black;
-    font-family: headingText;
-}
-
-.firstFullWrapperMainBody {
-    font-size: 30px;
-
-}
 
 .whatIDoWrapper {
     padding: 10px;
 }
 
-div.ffwCenterInfo p {
-    filter: none
-}
-
-.whatIDo {
-    height: 100%;
-    display: grid;
-    grid-gap: 10px;
-    grid-auto-flow: column;
-    grid-template-columns: auto min-content auto min-content auto min-content auto;
-}
 
 .whatIDoCell1, .whatIDoCell2, .whatIDoCell3 {
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-rows: auto min-content;
-    /* display: block; */
-    height: 400px;
     font-family: openSansLight;
     box-sizing: border-box;
     text-align: center;
-    width: 400px;
     background-color: #61616100;
     border: 2px solid white;
     color: white;
     font-weight: bold;
-    padding: 5px;
     text-decoration: none;
     font-size: 50px;
-    padding: auto;
-
     box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 30px;
 }
 
+
+
 div.whatIDo img {
-    height: 100%;
-    margin: auto;
     filter: invert(100%);
     opacity: 0.7;
 }
@@ -74,19 +32,3 @@ div.whatIDo p {
     margin: 0;
 }
 
-.whatIDoCell1 {
-    grid-column: 2;
-}
-
-.whatIDoCell2{
-    grid-column: 4;
-}
-
-.whatIDoCell3{
-    grid-column: 6;
-}
-
-div.secondFullWrapper{
-    height: 100%;
-    background-color: aqua;
-}
