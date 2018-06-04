@@ -2,7 +2,6 @@
 @import url('mobile/layoutMobile.css') (orientation:portrait);
 
 div.fullBodyDiv {
-
     display: grid;
     grid-gap: 0px;
     grid-template-columns: auto auto auto;
@@ -33,7 +32,7 @@ div.fullBodyDiv {
     grid-row: 2;
 }
 
-.ffwCenterInfo {
+.whatIDoWrapper {
     grid-row: 1;
 }
 .secondFullWrapper{
