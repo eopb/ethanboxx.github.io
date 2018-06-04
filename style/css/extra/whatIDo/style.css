@@ -2,8 +2,8 @@
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 
-div.firstFullWrapper {
-    background-image: url("../../../private/images/banner.jpg");
+div.fullBodyDiv {
+    background-image: url("../../../../private/images/banner.jpg");
     background-size: cover;
 }
 
