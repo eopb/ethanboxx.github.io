@@ -29,7 +29,7 @@ div.fullBodyDiv {
     margin: 0;
 }
 
-.verticalName, .mainHeading, .cornerBackground, .socialIcons{
+.verticalName, .mainHeading, .cornerBackground, .socialIconsWrapper{
     font-size: 50px;
     background-color: #aaaaaa;
     mix-blend-mode: screen;
