@@ -14,7 +14,7 @@ div.fullBodyDiv {
     grid-template-rows: auto auto auto;
 }
 
-div.socialIcons {
+div.socialIconsWrapper {
     grid-row: 3;
     grid-column: 1;
 }
