@@ -25,7 +25,13 @@ div.socialIconsWrapper {
 }
 
 div.socialIcons {
+    display: grid;
+    grid-auto-flow: row;
     grid-row: 2;
+}
+
+div.socialIcons a {
+    margin: auto;
 }
 
 .verticalName {

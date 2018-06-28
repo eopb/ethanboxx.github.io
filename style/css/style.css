@@ -16,6 +16,9 @@
     src: url("../fonts/unused/Monoton/Monoton-Regular.ttf");
 }
 
+div.socialIcons {
+    font-size: 25px;
+}
 
 
 div.fullBodyDiv {
