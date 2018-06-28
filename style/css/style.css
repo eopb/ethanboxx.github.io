@@ -32,13 +32,16 @@ div.fullBodyDiv {
     margin: 0;
 }
 
-.verticalName, .mainHeading, .cornerBackground, .socialIconsWrapper{
+.verticalName, .mainHeading, .cornerBackground, .socialIconsWrapper {
+    z-index: 3;
     font-size: 50px;
     background-color: #aaaaaa;
     mix-blend-mode: screen;
     text-shadow: 0 0 5px black;
     font-family: headingText;
+    
 }
+
 
 .areaWrappers {
     font-size: 30px;
