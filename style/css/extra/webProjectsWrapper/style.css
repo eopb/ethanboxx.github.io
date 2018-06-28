@@ -2,3 +2,6 @@
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 
+div.webProjectsWrapper{
+    background-color: aqua;
+}
