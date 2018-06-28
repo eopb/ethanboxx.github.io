@@ -2,7 +2,7 @@
 @import url('mobile/layoutMobile.css') (orientation:portrait);
 
 
-div.webProjectsWrapper h1{
+div.webProjectsWrapper h1 {
     grid-row: 1;
     grid-column: 1 / 4;
     background-color:rgb(184, 184, 184);
@@ -30,7 +30,7 @@ div.webProjectsWrapper iframe {
     grid-column: 3;
 }
 
-div.webProjectsWrapper{
+div.webProjectsWrapper {
     display: grid;
     grid-auto-flow: row;
     grid-template-rows: min-content min-content auto;
