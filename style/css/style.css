@@ -33,7 +33,7 @@ div.fullBodyDiv {
 }
 
 .verticalName, .mainHeading, .cornerBackground, .socialIconsWrapper {
-    z-index: 3;
+    z-index: 1;
     font-size: 50px;
     background-color: #aaaaaa;
     mix-blend-mode: screen;
