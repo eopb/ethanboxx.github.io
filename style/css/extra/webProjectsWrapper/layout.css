@@ -11,6 +11,7 @@ div.webProjectsWrapper h1 {
 }
 
 div.webProjectsWrapper h2 {
+    margin: 5px;
     grid-row: 2;
     grid-column: 1;
 }
