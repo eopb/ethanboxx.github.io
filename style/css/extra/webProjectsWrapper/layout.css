@@ -32,6 +32,7 @@ div.webProjectsWrapper iframe {
 }
 
 div.webProjectsWrapper {
+    padding: 0 0 10px 0;
     display: grid;
     grid-auto-flow: row;
     grid-template-rows: min-content min-content auto;
