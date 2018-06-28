@@ -60,20 +60,21 @@ div.socialIcons a {
 
 .whatIDoWrapper {
     grid-row: 1;
-    z-index: 2;
+    z-index: 3;
     box-shadow:  rgba(0, 0, 0, 0.9) 0px 3px 20px;
 }
 
-.secondFullWrapper{
+.webProjectsWrapper{
     grid-row: 2;
-    z-index: 1;
+    z-index: 2;
+    box-shadow:  rgba(0, 0, 0, 0.9) 0px 3px 20px;
 }
 
 .mainHeading {
     margin: 0;
 }
 
-div.secondFullWrapper{
+div.webProjectsWrapper{
     height: 100%;
     background-color: aqua;
 }
