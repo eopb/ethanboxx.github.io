@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: robotoLight;
+    src: url("../fonts/Roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
     font-family: headingText;
     src: url("../fonts/unused/Monoton/Monoton-Regular.ttf");
 }
