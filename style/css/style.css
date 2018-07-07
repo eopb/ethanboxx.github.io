@@ -14,7 +14,7 @@ div.socialIcons {
 
 
 div.fullBodyDiv {
-    background-image: url("../../private/images/path825.png");
+    background-image: url("../../private/images/banner.svg");
     background-repeat: repeat;
     background-size: 100px;
 }
@@ -28,11 +28,11 @@ div.fullBodyDiv {
 .verticalName, .mainHeading, .cornerBackground, .socialIconsWrapper {
     z-index: 1;
     font-size: 50px;
-    background-color: #ffffff;
-    mix-blend-mode: screen;
-    color: #000;
+    background-color: #000;
+    mix-blend-mode: multiply;
+    color: #fff;
     /* text-shadow: 0 0 5px black; */
-    font-family: subheadingText;
+    font-family: headingText;
     
 }
 
