@@ -1,6 +1,6 @@
 div.subheading {
     font-family: subheadingText;
-    background-color:rgb(184, 184, 184);
+    background-color:rgb(255, 255, 255);
     box-shadow:  rgba(0, 0, 0, 0.9) 0px 3px 20px;
     z-index: 10;
 }

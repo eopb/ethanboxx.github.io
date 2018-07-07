@@ -3,5 +3,6 @@
 @import url('layout.css');
 
 div.webProjectsWrapper{
-    background-color: aqua;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
 }
