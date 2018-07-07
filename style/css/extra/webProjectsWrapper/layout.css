@@ -2,13 +2,15 @@
 @import url('mobile/layoutMobile.css') (orientation:portrait);
 
 
-div.webProjectsWrapper h1 {
+/* div.webProjectsWrapper h1 {
     grid-row: 1;
     grid-column: 1 / 4;
     background-color:rgb(184, 184, 184);
+    box-shadow:  rgba(0, 0, 0, 0.9) 0px 3px 20px;
+    z-index: 10;
     padding: 10px;
     margin: 0 0 20px 0;
-}
+} */
 
 div.webProjectsWrapper h2 {
     margin: 5px;
