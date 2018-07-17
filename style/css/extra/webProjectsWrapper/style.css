@@ -6,3 +6,7 @@ div.webProjectsWrapper{
     background-color: rgb(37, 37, 37);
     color: #fff;
 }
+
+div.webProjectsWrapper p, div.webProjectsWrapper h2{
+    font-family: paraText;
+}
