@@ -17,3 +17,8 @@
     font-family: headingText;
     src: url("../fonts/unused/Monoton/Monoton-Regular.ttf");
 }
+
+@font-face {
+    font-family: paraText;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
