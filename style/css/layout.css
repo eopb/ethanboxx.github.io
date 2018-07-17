@@ -64,10 +64,6 @@ div.socialIcons a {
     box-shadow:  rgba(0, 0, 0, 0.9) 0px 3px 20px;
 }
 
-.subheading {
-    grid-row: 2;
-}
-
 .webProjectsWrapperWrapper{
     grid-row: 3;
     z-index: 2;
@@ -80,4 +76,12 @@ div.socialIcons a {
 
 div.webProjectsWrapperWrapper{
     height: 100%;
+}
+
+.subheading.row1 {
+    grid-row: 2;
+}
+
+.subheading.row2{
+    grid-row: 4;
 }
