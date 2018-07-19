@@ -24,4 +24,10 @@ div.galleryCell {
     border-bottom: solid;
     border-bottom-color: white;
     background-color: aqua;
+    box-shadow: 0px 0px 20px rgb(90, 30, 109);
+}
+
+div.galleryCell img {
+    border-radius: 20px;
+    width: 100%;
 }
