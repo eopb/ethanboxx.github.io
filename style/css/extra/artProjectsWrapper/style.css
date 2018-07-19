@@ -2,11 +2,26 @@
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 
-div.artProjectsWrapperWrapper{
+div.artProjectsWrapperWrapper {
     background-color: rgb(37, 37, 37);
     color: #fff;
 }
 
-div.artProjectsWrapperWrapper p, div.artProjectsWrapperWrapper h2{
+div.artProjectsWrapperWrapper p, div.artProjectsWrapperWrapper h2 {
     font-family: paraText;
+}
+
+div.mainContentGallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+
+}
+
+div.galleryCell {
+    margin: 10px;
+    padding: 0px;
+    border-radius: 20px;
+    border-bottom: solid;
+    border-bottom-color: white;
+    background-color: aqua;
 }
