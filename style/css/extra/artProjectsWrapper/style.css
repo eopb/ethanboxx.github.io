@@ -11,12 +11,6 @@ div.artProjectsWrapperWrapper p, div.artProjectsWrapperWrapper h2 {
     font-family: paraText;
 }
 
-div.mainContentGallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-
-}
-
 div.galleryCell {
     margin: 10px;
     padding: 0px;

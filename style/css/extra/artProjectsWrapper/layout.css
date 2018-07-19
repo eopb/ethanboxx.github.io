@@ -1,2 +1,7 @@
 @import url('desktop/layoutDesktop.css') (orientation:landscape);
 @import url('mobile/layoutMobile.css') (orientation:portrait);
+
+div.mainContentGallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
