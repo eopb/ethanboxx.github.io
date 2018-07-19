@@ -23,6 +23,12 @@ div.galleryCell {
 }
 
 div.galleryCell img {
-    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(90, 30, 109);
+    border-radius: 20px 20px 0px 0;
     width: 100%;
+}
+
+div.galleryCell p {
+    margin: 1px;
+    text-align: center;
 }
