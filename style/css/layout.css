@@ -53,7 +53,7 @@ div.socialIcons a {
     display: grid;
     grid-gap: 0px;
     grid-auto-flow: row;
-    grid-template-rows: min-content min-content auto;
+    grid-template-rows: min-content min-content min-content min-content auto;
     grid-column: 2;
     grid-row: 2 / 4;
 }
@@ -66,6 +66,12 @@ div.socialIcons a {
 
 .webProjectsWrapperWrapper{
     grid-row: 3;
+    z-index: 2;
+    box-shadow:  rgba(0, 0, 0, 0.9) 0px 3px 20px;
+}
+
+.artProjectsWrapperWrapper{
+    grid-row: 5;
     z-index: 2;
     box-shadow:  rgba(0, 0, 0, 0.9) 0px 3px 20px;
 }
