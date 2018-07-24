@@ -1,6 +1,7 @@
 @import url('desktop/styleDesktop.css') (orientation:landscape);
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
+@import url('animation.css');
 
 div.webProjectsWrapper{
     background-color: rgb(37, 37, 37);
