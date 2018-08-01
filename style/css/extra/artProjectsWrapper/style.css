@@ -20,6 +20,9 @@ div.galleryCell {
     border-bottom-color: rgba(0, 0, 0, 0.37);
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 20px rgb(90, 30, 109);
+    transform: perspective(300px) rotateX(0deg) translateZ(0px);
+    
+    transition-duration: 1s;
 }
 
 div.galleryCell img {
@@ -31,4 +34,11 @@ div.galleryCell img {
 div.galleryCell p {
     margin: 1px;
     text-align: center;
+}
+
+
+
+div.galleryCell:hover {
+    transform: perspective(300px) rotateX(12.5deg) translateZ(10px);
+    z-index: 10;
 }
