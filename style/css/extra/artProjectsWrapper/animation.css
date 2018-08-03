@@ -21,14 +21,19 @@ div.galleryCell:active {
 div.galleryCell img {
     transform-style: preserve-3d;
     transform: perspective(300px) rotateX(0deg) translateZ(0px);
-    
+    filter: blur(4px);
     transition-duration: 1s;
 }
 
 div.galleryCell:hover img {
     transform-style: preserve-3d;
+    filter: blur(0);
     transform: perspective(300px) rotateX(0deg) translateZ(10px);
     
 
 
+}
+
+div.galleryCell:active img{
+    transform: perspective(300px) rotateX(0deg) translateZ(0px);
 }
