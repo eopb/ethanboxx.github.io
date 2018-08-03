@@ -21,13 +21,17 @@ div.galleryCell:active {
 div.galleryCell img {
     transform-style: preserve-3d;
     transform: perspective(300px) rotateX(0deg) translateZ(0px);
-    filter: blur(4px);
+    filter: blur(0px);
+    filter: grayscale(80%);
+    box-shadow: 0px 0px 20px var(--galleryCellShadow);
     transition-duration: 1s;
 }
 
 div.galleryCell:hover img {
     transform-style: preserve-3d;
     filter: blur(0);
+    filter: grayscale(0);
+    box-shadow: 0px 10px 40px var(--galleryCellShadow);
     transform: perspective(300px) rotateX(0deg) translateZ(10px);
     
 
@@ -35,5 +39,7 @@ div.galleryCell:hover img {
 }
 
 div.galleryCell:active img{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0);
+    filter: grayscale(0);
     transform: perspective(300px) rotateX(0deg) translateZ(0px);
 }
