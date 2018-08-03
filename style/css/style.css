@@ -8,6 +8,7 @@
 @import url('extra/artProjectsWrapper/style.css');
 @import url('variables.css');
 @import url('fonts.css');
+@import url('animation.css');
 
 div.socialIcons {
     font-size: 25px;
