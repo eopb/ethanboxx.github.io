@@ -15,3 +15,11 @@ div.galleryCell:active {
     box-shadow: 0px 50px 20px rgba(0, 0, 0, 0);
     transform: perspective(1000px) rotateX(180deg) translateZ(0);
 }
+
+div.galleryCell img {
+    transform: perspective(300px) rotateX(0deg) translateZ(0px);
+}
+
+div.galleryCell img:hover {
+    transform: perspective(300px) rotateX(0deg) translateZ(0px);
+}
