@@ -28,7 +28,7 @@ div.galleryCell {
 
 div.galleryCell img {
     
-    border-radius: 19px 19px 0px 0;
+    border-radius: 19px 19px 1.5px 1.5px;
     width: 100%;
 }
 
