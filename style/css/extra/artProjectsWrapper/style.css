@@ -1,6 +1,7 @@
 @import url('desktop/styleDesktop.css') (orientation:landscape);
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
+@import url('animation.css');
 
 div.artProjectsWrapperWrapper {
     background-color: rgb(37, 37, 37);
@@ -38,7 +39,3 @@ div.galleryCell p {
 
 
 
-div.galleryCell:hover {
-    transform: perspective(300px) rotateX(12.5deg) translateZ(10px);
-    z-index: 10;
-}
