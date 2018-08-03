@@ -1,14 +1,17 @@
 div.galleryCell {
+    box-shadow: 0px 0px 20px var(--galleryCellShadow);
     transform: perspective(300px) rotateX(0deg) translateZ(0px);
     transition-duration: 1s;
 }
 
 div.galleryCell:hover {
+    box-shadow: 0px 50px 100px var(--galleryCellShadow);
     transform: perspective(300px) rotateX(12.5deg) translateZ(10px);
     z-index: 10;
 }
 
 
 div.galleryCell:active {
+    box-shadow: 0px 50px 20px rgba(0, 0, 0, 0);
     transform: perspective(1000px) rotateX(180deg) translateZ(0);
 }

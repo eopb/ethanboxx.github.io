@@ -20,7 +20,7 @@ div.galleryCell {
     color: black;
     border-bottom-color: rgba(0, 0, 0, 0.37);
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 20px var(--galleryCellShadow);
+    
     transform: perspective(300px) rotateX(0deg) translateZ(0px);
     
     transition-duration: 1s;
