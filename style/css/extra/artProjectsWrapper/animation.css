@@ -1,10 +1,12 @@
 div.galleryCell {
+    transform-style: preserve-3d;
     box-shadow: 0px 0px 20px var(--galleryCellShadow);
     transform: perspective(300px) rotateX(0deg) translateZ(0px);
     transition-duration: 1s;
 }
 
 div.galleryCell:hover {
+    transform-style: preserve-3d;
     box-shadow: 0px 50px 100px var(--galleryCellShadow);
     transform: perspective(300px) rotateX(12.5deg) translateZ(10px);
     z-index: 10;
@@ -17,9 +19,16 @@ div.galleryCell:active {
 }
 
 div.galleryCell img {
+    transform-style: preserve-3d;
     transform: perspective(300px) rotateX(0deg) translateZ(0px);
+    
+    transition-duration: 1s;
 }
 
-div.galleryCell img:hover {
-    transform: perspective(300px) rotateX(0deg) translateZ(0px);
+div.galleryCell:hover img {
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateX(0deg) translateZ(10px);
+    
+
+
 }
