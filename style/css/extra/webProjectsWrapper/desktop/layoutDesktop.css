@@ -1,0 +1,9 @@
+div.whatIDoCell1 {
+    transform: perspective(1000px) rotateY(-40deg) translateZ(-140px);
+}
+div.whatIDoCell2 {
+
+}
+div.whatIDoCell3 {
+    transform: perspective(1000px) rotateY(40deg) translateZ(-140px);
+}
