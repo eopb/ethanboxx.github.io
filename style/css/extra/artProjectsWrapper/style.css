@@ -38,5 +38,6 @@ div.galleryCell p {
 }
 
 /* div.artProjectsWrapperWrapper p {
-    transform: perspective(1000px) rotateY(4deg) translateZ(-30px);
+    transform-origin: left center;
+    transform: perspective(4000px) rotateY(40deg) translateZ(-30px);
 } */
