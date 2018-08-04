@@ -46,10 +46,12 @@ div.imageWrap {
 
 .mainBlock h2 {
     margin: 0;
+    padding: 20px;
 }
 
 .mainBlock p {
-    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .button {
@@ -65,4 +67,14 @@ div.buttonWrap {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: auto min-content auto;
+}
+
+video {
+    grid-row: 2;
+    max-height: 95vh;
+    max-width: 95vw;
+    margin: 0 auto 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 50px 70px rgba(0, 0, 0);
+    transition: 1s;
 }
