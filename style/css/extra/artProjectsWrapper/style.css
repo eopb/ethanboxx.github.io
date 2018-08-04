@@ -37,5 +37,6 @@ div.galleryCell p {
     text-align: center;
 }
 
-
-
+/* div.artProjectsWrapperWrapper p {
+    transform: perspective(1000px) rotateY(4deg) translateZ(-30px);
+} */
