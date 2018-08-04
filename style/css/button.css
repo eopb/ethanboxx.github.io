@@ -1,5 +1,5 @@
 .button {
-    /* display: block; */
+    display: block;
     font-family: openSansLight;
     box-sizing: border-box;
     text-align: center;
@@ -12,7 +12,7 @@
     text-decoration: none;
     font-size: 50px;
     padding: auto;
-
+    transition: 1s;
     box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
 }
 

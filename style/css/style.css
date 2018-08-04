@@ -1,7 +1,6 @@
 @import url('desktop/styleDesktop.css') (orientation:landscape);
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
-@import url('button.css');
 @import url('subheading.css');
 @import url('extra/whatIDo/style.css');
 @import url('extra/webProjectsWrapper/style.css');

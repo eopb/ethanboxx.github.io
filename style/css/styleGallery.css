@@ -51,3 +51,18 @@ div.imageWrap {
 .mainBlock p {
     margin: 0;
 }
+
+.button {
+    grid-column: 2;
+    margin: 25px;
+}
+
+.button:hover {
+    border-radius: 100px;
+}
+
+div.buttonWrap {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto min-content auto;
+}
