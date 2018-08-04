@@ -1,6 +1,7 @@
 @import url('desktop/styleDesktop.css') (orientation:landscape);
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
+@import url('animation.css');
 
 div.artProjectsWrapperWrapper {
     background-color: rgb(37, 37, 37);
@@ -19,12 +20,15 @@ div.galleryCell {
     color: black;
     border-bottom-color: rgba(0, 0, 0, 0.37);
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 20px rgb(90, 30, 109);
+    
+    transform: perspective(300px) rotateX(0deg) translateZ(0px);
+    
+    transition-duration: 1s;
 }
 
 div.galleryCell img {
-    box-shadow: 0px 0px 20px rgb(90, 30, 109);
-    border-radius: 20px 20px 0px 0;
+    
+    border-radius: 19px 19px 1.5px 1.5px;
     width: 100%;
 }
 
@@ -32,3 +36,8 @@ div.galleryCell p {
     margin: 1px;
     text-align: center;
 }
+
+/* div.artProjectsWrapperWrapper p {
+    transform-origin: left center;
+    transform: perspective(4000px) rotateY(40deg) translateZ(-30px);
+} */

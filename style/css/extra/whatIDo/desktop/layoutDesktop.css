@@ -15,3 +15,60 @@
 .whatIDoCell3{
     grid-column: 6;
 }
+
+div.whatIDoCell1 {
+    transition-duration: 1s;
+    transform-origin: right center;
+    transform: perspective(1000px) rotateY(-35deg) translateZ(0px);
+}
+
+div.whatIDoCell3 {
+    transition-duration: 1s;
+    transform-origin: left center;
+    transform: perspective(1000px) rotateY(35deg) translateZ(0px);
+}
+
+div.whatIDoCell1:hover {
+    transform: perspective(1000px) rotateY(0deg) translateZ(0px);
+}
+div.whatIDoCell3:hover {
+    transform: perspective(1000px) rotateY(0deg) translateZ(0px);
+}
+
+
+@keyframes leftWhatIDo {
+    0% {
+        transform-origin: right center;
+        transform: perspective(1000px) rotateX(0deg) translateZ(0px);
+    }
+    100% {
+        transform-origin: right center;
+        transform: perspective(1000px) rotateY(-35deg) translateZ(0px);
+      
+    }
+}
+
+@keyframes rightWhatIDo {
+    0% {
+        transform-origin: left center;
+        transform: perspective(1000px) rotateX(0deg) translateZ(0px);
+    }
+    100% {
+        transform-origin: left center;
+        transform: perspective(1000px) rotateY(35deg) translateZ(0px);
+      
+    }
+}
+  
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @supports not (-ms-ime-align:auto) {
+        div.whatIDoCell1 {  
+            animation: 2s ease-out 0s 1 leftWhatIDo;
+        }
+        div.whatIDoCell3 {  
+            animation: 2s ease-out 0s 1 rightWhatIDo;
+        }
+    }
+      
+}
+  
