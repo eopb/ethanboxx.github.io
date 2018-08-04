@@ -1,29 +1,33 @@
 div.whatIDoCell1 {
-    transform: perspective(1000px) rotateY(-40deg) translateZ(-140px);
+    transform-origin: right center;
+    transform: perspective(1000px) rotateY(-35deg) translateZ(0px);
 }
-div.whatIDoCell2 {
 
-}
 div.whatIDoCell3 {
-    transform: perspective(1000px) rotateY(40deg) translateZ(-140px);
+    transform-origin: left center;
+    transform: perspective(1000px) rotateY(35deg) translateZ(0px);
 }
 
-@keyframes meh2 {
+@keyframes leftWhatIDo {
     0% {
+        transform-origin: right center;
         transform: perspective(1000px) rotateX(0deg) translateZ(0px);
     }
     100% {
-        transform: perspective(1000px) rotateY(-40deg) translateZ(-140px);
+        transform-origin: right center;
+        transform: perspective(1000px) rotateY(-35deg) translateZ(0px);
       
     }
 }
 
-@keyframes meh3 {
+@keyframes rightWhatIDo {
     0% {
+        transform-origin: left center;
         transform: perspective(1000px) rotateX(0deg) translateZ(0px);
     }
     100% {
-        transform: perspective(1000px) rotateY(40deg) translateZ(-140px);
+        transform-origin: left center;
+        transform: perspective(1000px) rotateY(35deg) translateZ(0px);
       
     }
 }
@@ -31,10 +35,10 @@ div.whatIDoCell3 {
  @media screen and (-webkit-min-device-pixel-ratio:0) {
     @supports not (-ms-ime-align:auto) {
         div.whatIDoCell1 {  
-            animation: 2s ease-out 0s 1 meh2;
+            animation: 2s ease-out 0s 1 leftWhatIDo;
         }
         div.whatIDoCell3 {  
-            animation: 2s ease-out 0s 1 meh3;
+            animation: 2s ease-out 0s 1 rightWhatIDo;
         }
     }
       
