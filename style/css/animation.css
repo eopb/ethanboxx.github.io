@@ -1,8 +1,10 @@
 @keyframes animationIn {
     0% {
-        transform: perspective(4000px) rotateX(90deg) translateZ(0px);
+        transform-origin: center top;
+        transform: perspective(4000px) rotateX(-90deg) translateZ(0px);
     }
     100% {
+        transform-origin: center top;
         transform: perspective(4000px) rotateX(0deg) translateZ(0px);
       
     }
