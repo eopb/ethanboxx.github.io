@@ -17,14 +17,30 @@
 }
 
 div.whatIDoCell1 {
+    transition-duration: 1s;
     transform-origin: right center;
     transform: perspective(1000px) rotateY(-35deg) translateZ(0px);
 }
 
 div.whatIDoCell3 {
+    transition-duration: 1s;
     transform-origin: left center;
     transform: perspective(1000px) rotateY(35deg) translateZ(0px);
 }
+
+div.whatIDoCell1:hover {
+    
+    transform: perspective(1000px) rotateY(0deg) translateZ(0px);
+
+
+}
+div.whatIDoCell3:hover {
+    
+    transform: perspective(1000px) rotateY(0deg) translateZ(0px);
+
+
+}
+
 
 @keyframes leftWhatIDo {
     0% {
