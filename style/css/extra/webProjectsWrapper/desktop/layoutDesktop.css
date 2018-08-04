@@ -7,3 +7,36 @@ div.whatIDoCell2 {
 div.whatIDoCell3 {
     transform: perspective(1000px) rotateY(40deg) translateZ(-140px);
 }
+
+@keyframes meh2 {
+    0% {
+        transform: perspective(1000px) rotateX(0deg) translateZ(0px);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(-40deg) translateZ(-140px);
+      
+    }
+}
+
+@keyframes meh3 {
+    0% {
+        transform: perspective(1000px) rotateX(0deg) translateZ(0px);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(40deg) translateZ(-140px);
+      
+    }
+}
+  
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @supports not (-ms-ime-align:auto) {
+        div.whatIDoCell1 {  
+            animation: 2s ease-out 0s 1 meh2;
+        }
+        div.whatIDoCell3 {  
+            animation: 2s ease-out 0s 1 meh3;
+        }
+    }
+      
+}
+  
