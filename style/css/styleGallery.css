@@ -1,45 +1,18 @@
-@import url('desktop/styleDesktop.css') (orientation:landscape);
-@import url('mobile/styleMobile.css') (orientation:portrait);
-@import url('layout.css');
-@import url('button.css');
-@import url('subheading.css');
-@import url('extra/whatIDo/style.css');
-@import url('extra/webProjectsWrapper/style.css');
-@import url('extra/artProjectsWrapper/style.css');
-@import url('variables.css');
-@import url('fonts.css');
-@import url('animation.css');
-
-
-  
-
-div.socialIcons {
-    font-size: 25px;
-}
-
-
-div.fullBodyDiv {
-    background-image: url("../../private/images/banner.jpg");
-    background-size: cover;
-}
-
-.verticalName{
-    writing-mode: vertical-rl;
-    /* text-orientation: upright; */
+body {
     margin: 0;
+    padding: 0px;
 }
 
-.verticalName, .mainHeading, .cornerBackground, .socialIconsWrapper {
-    z-index: 1;
-    font-size: 50px;
-    background-color: #aaaaaa;
-    mix-blend-mode: screen;
-    text-shadow: 0 0 5px black;
-    font-family: headingText;
-    
+img {
+    grid-row: 2;
+    max-height: 95vh;
+    max-width: 95vw;
+    margin: 0 auto 0 auto;
+
 }
 
-
-.areaWrappers {
-    font-size: 30px;
+div.imageWrap {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: auto min-content auto;
 }
