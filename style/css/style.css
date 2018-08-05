@@ -16,6 +16,11 @@ div.fullBodyDiv {
     background-size: cover;
 }
 
+body {
+    background-image: url("../../private/images/banner.jpg");
+    background-size: cover;
+}
+
 .verticalName {
     writing-mode: vertical-rl;
     /* text-orientation: upright; */
