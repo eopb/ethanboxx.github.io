@@ -93,3 +93,12 @@ video {
         animation: 1s ease-out 0s 1 animationIn;
     }
 }
+
+h2,
+p {
+    font-family: paraText;
+}
+
+p {
+    text-align: center;
+}
