@@ -1,7 +1,6 @@
 @import url('desktop/layoutDesktop.css') (orientation:landscape);
 @import url('mobile/layoutMobile.css') (orientation:portrait);
 
-
 /* div.webProjectsWrapper h1 {
     grid-row: 1;
     grid-column: 1 / 4;
@@ -39,4 +38,9 @@ div.webProjectsWrapper {
     grid-auto-flow: row;
     grid-template-rows: min-content min-content auto;
     grid-template-columns: auto auto auto;
+}
+
+div.webProjectsWrapperWrapper,
+.row1 {
+    display: none;
 }
