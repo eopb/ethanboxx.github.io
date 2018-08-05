@@ -2,13 +2,13 @@
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 @import url('animation.css');
-
 div.artProjectsWrapperWrapper {
     background-color: rgb(37, 37, 37);
     color: #fff;
 }
 
-div.artProjectsWrapperWrapper p, div.artProjectsWrapperWrapper h2 {
+div.artProjectsWrapperWrapper p,
+div.artProjectsWrapperWrapper h2 {
     font-family: paraText;
 }
 
@@ -20,22 +20,28 @@ div.galleryCell {
     color: black;
     border-bottom-color: rgba(0, 0, 0, 0.37);
     background-color: rgb(255, 255, 255);
-    
     transform: perspective(300px) rotateX(0deg) translateZ(0px);
-    
     transition-duration: 1s;
 }
 
 div.galleryCell img {
-    
     border-radius: 19px 19px 1.5px 1.5px;
     width: 100%;
 }
 
 div.galleryCell p {
+    transition: 1s;
     margin: 1px;
     text-align: center;
+    font-size: 30px;
 }
+
+@media (max-width: 600px) {
+    div.galleryCell p {
+        font-size: 4vw;
+    }
+}
+
 
 /* div.artProjectsWrapperWrapper p {
     transform-origin: left center;
