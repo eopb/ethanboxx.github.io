@@ -2,7 +2,10 @@
 @import url('mobile/styleMobile.css') (orientation:portrait);
 @import url('layout.css');
 .whatIDoWrapper {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .whatIDoCell {
@@ -14,7 +17,6 @@
     color: white;
     font-weight: bold;
     text-decoration: none;
-    font-size: 50px;
     box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 30px;
 }
 
@@ -27,7 +29,24 @@ div.whatIDo p {
     margin: 0;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 600px) {
+    .whatIDoCell {
+        font-size: 6vw;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (min-width: 600px) {
+    .whatIDoCell {
+        font-size: 30px;
+        height: 20vw;
+        width: 20vw;
+    }
+}
+
+
+/* @media (max-width: 1400px) and (min-width: 900px) {
     .whatIDoCell {
         height: 40vw;
         width: 40vw;
@@ -40,6 +59,21 @@ div.whatIDo p {
         width: 80vw;
     }
 }
+
+@media (min-width: 600px) and (max-width: 1400px) {
+    .whatIDoCell {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .whatIDoCell {
+        height: 200px;
+        width: 200px;
+    }
+}
+ */
 
 @media (min-width: 1400px) {
     div.leftWhatIDo {

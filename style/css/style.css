@@ -39,6 +39,7 @@ body {
     font-family: headingText;
 }
 
-.areaWrappers {
+.artProjectsWrapperWrapper p,
+div.subheading h1 {
     font-size: 30px;
 }
