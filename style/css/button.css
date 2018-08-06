@@ -1,0 +1,22 @@
+.button {
+    display: block;
+    font-family: openSansLight;
+    box-sizing: border-box;
+    text-align: center;
+    width: auto;
+    background-color: #61616100;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 5px 70px 5px 70px;
+    text-decoration: none;
+    font-size: 50px;
+    padding: auto;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 8px;
+    
+}

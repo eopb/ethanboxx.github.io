@@ -4,96 +4,10 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>http://efunb.com/</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
-<url>
-  <loc>http://efunb.com/index.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/landing.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/generic.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/elements.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/aUnHappyIceCream.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/polyFloatingIsland.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/polyBird.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/polyPortrait.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/furBall.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/SMRTAni.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/fastCut.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/infoFi.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/santaHat.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/flatColour.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/3dColours.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/impossibleShapes.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://efunb.com/projects/polyWallpapers.html</loc>
-  <lastmod>2017-10-18T08:54:32+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
+
 </urlset>
