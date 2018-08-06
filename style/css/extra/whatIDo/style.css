@@ -17,7 +17,6 @@
     color: white;
     font-weight: bold;
     text-decoration: none;
-    font-size: 50px;
     box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 30px;
 }
 
@@ -30,9 +29,20 @@ div.whatIDo p {
     margin: 0;
 }
 
-.whatIDoCell {
-    height: 200px;
-    width: 200px;
+@media (max-width: 600px) {
+    .whatIDoCell {
+        font-size: 6vw;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (min-width: 600px) {
+    .whatIDoCell {
+        font-size: 30px;
+        height: 20vw;
+        width: 20vw;
+    }
 }
 
 
