@@ -12,7 +12,6 @@ div.galleryCell:hover {
     z-index: 10;
 }
 
-
 div.galleryCell:active {
     filter: blur(300px);
     box-shadow: 0px 50px 20px rgba(0, 0, 0, 0);
@@ -34,12 +33,9 @@ div.galleryCell:hover img {
     filter: grayscale(0);
     box-shadow: 0px 10px 40px var(--galleryCellShadow);
     transform: perspective(300px) rotateX(0deg) translateZ(10px);
-    
-
-
 }
 
-div.galleryCell:active img{
+div.galleryCell:active img {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0);
     filter: grayscale(0);
     transform: perspective(300px) rotateX(0deg) translateZ(0px);
