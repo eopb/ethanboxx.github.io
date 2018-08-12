@@ -1,10 +1,8 @@
 @import url('desktop/layoutDesktop.css') (orientation:landscape);
 @import url('mobile/layoutMobile.css') (orientation:portrait);
-
 body {
     margin: 0;
 }
-
 
 div.fullBodyDiv {
     display: grid;
@@ -37,10 +35,9 @@ div.socialIcons a {
 .verticalName {
     grid-column: 1;
     grid-row: 2;
-
 }
 
-.mainHeading{
+.mainHeading {
     grid-column: 2;
 }
 
@@ -61,26 +58,26 @@ div.socialIcons a {
 .whatIDoWrapper {
     grid-row: 1;
     z-index: 3;
-    box-shadow:  rgba(0, 0, 0, 0.9) 0px 3px 20px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
 }
 
-.webProjectsWrapperWrapper{
+.webProjectsWrapperWrapper {
     grid-row: 3;
     z-index: 2;
-    box-shadow:  rgba(0, 0, 0, 0.9) 0px 3px 20px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
 }
 
-.artProjectsWrapperWrapper{
+.artProjectsWrapperWrapper {
     grid-row: 5;
     z-index: 2;
-    box-shadow:  rgba(0, 0, 0, 0.9) 0px 3px 20px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
 }
 
 .mainHeading {
     margin: 0;
 }
 
-div.webProjectsWrapperWrapper{
+div.webProjectsWrapperWrapper {
     height: 100%;
 }
 
@@ -88,6 +85,6 @@ div.webProjectsWrapperWrapper{
     grid-row: 2;
 }
 
-.subheading.row2{
+.subheading.row2 {
     grid-row: 4;
 }
