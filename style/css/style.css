@@ -7,10 +7,6 @@
 @import url('extra/artProjectsWrapper/style.css');
 @import url('animation.css');
 @import url('mix.css');
-div.socialIcons {
-    font-size: 25px;
-}
-
 div.fullBodyDiv {
     background-image: url("../../private/images/banner.jpg");
     background-size: cover;
@@ -31,12 +27,36 @@ body {
 .mainHeading,
 .cornerBackground,
 .socialIconsWrapper {
+    transition: 1s;
     z-index: 1;
-    font-size: 50px;
     background-color: #aaaaaa;
     mix-blend-mode: screen;
     text-shadow: 0 0 5px black;
     font-family: headingText;
+}
+
+@media only screen and (min-width: 380px) {
+    .verticalName,
+    .mainHeading,
+    .cornerBackground,
+    .socialIconsWrapper {
+        font-size: 50px;
+    }
+    div.socialIcons {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .verticalName,
+    .mainHeading,
+    .cornerBackground,
+    .socialIconsWrapper {
+        font-size: 12vw;
+    }
+    div.socialIcons {
+        font-size: 7vw;
+    }
 }
 
 div.subheading h1 {
