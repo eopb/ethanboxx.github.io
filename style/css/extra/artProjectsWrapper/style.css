@@ -47,3 +47,7 @@ div.galleryCell p {
     transform-origin: left center;
     transform: perspective(4000px) rotateY(40deg) translateZ(-30px);
 } */
+
+.artProjectsWrapperWrapper p {
+    font-size: var(--paraFontSize);
+}
