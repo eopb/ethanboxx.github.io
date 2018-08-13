@@ -62,3 +62,8 @@ body {
 div.subheading h1 {
     font-size: 55px;
 }
+
+div.webProjectsWrapper p,
+.artProjectsWrapperWrapper p {
+    text-align: justify;
+}
