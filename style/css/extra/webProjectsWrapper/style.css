@@ -10,5 +10,12 @@ div.webProjectsWrapper {
 div.webProjectsWrapper p,
 div.webProjectsWrapper h2 {
     font-family: paraText;
+}
+
+div.webProjectsWrapper p {
     font-size: var(--paraFontSize);
+}
+
+div.webProjectsWrapper h2 {
+    font-size: var(--subHeadingFontSize);
 }
