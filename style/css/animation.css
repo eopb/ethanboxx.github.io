@@ -1,4 +1,4 @@
-@keyframes animationIn {
+/* @keyframes animationIn {
     0% {
         transform-origin: center top;
         transform: perspective(4000px) rotateX(-90deg) translateZ(0px);
@@ -27,4 +27,4 @@ div.socialIcons a:hover {
 
 div.socialIcons a:active {
     transform: perspective(1000px) rotateX(180deg) translateZ(0);
-}
+} */
