@@ -1,0 +1,14 @@
+
+div.socialIcons a {
+    transform: perspective(60px) rotateX(0deg) translateZ(0px);
+    transition-duration: 1s;
+}
+
+div.socialIcons a:hover {
+    transform: perspective(60px) rotateX(30deg) translateZ(10px);
+    z-index: 10;
+}
+
+div.socialIcons a:active {
+    transform: perspective(1000px) rotateX(180deg) translateZ(0);
+}
