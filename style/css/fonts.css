@@ -1,0 +1,24 @@
+@font-face {
+    font-family: openSansLight;
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: robotoLight;
+    src: url("../fonts/Roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: subheadingText;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: headingText;
+    src: url("../fonts/unused/Monoton/Monoton-Regular.ttf");
+}
+
+@font-face {
+    font-family: paraText;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}

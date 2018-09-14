@@ -1,0 +1,90 @@
+@import url('desktop/layoutDesktop.css') (orientation:landscape);
+@import url('mobile/layoutMobile.css') (orientation:portrait);
+body {
+    margin: 0;
+}
+
+div.fullBodyDiv {
+    display: grid;
+    grid-gap: 0px;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+div.socialIconsWrapper {
+    display: grid;
+    grid-gap: 0;
+    grid-auto-flow: row;
+    grid-template-rows: auto min-content;
+    height: 100%;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+div.socialIcons {
+    display: grid;
+    grid-auto-flow: row;
+    grid-row: 2;
+}
+
+div.socialIcons a {
+    margin: auto;
+}
+
+.verticalName {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.mainHeading {
+    grid-column: 2;
+}
+
+.cornerBackground {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.areaWrappers {
+    display: grid;
+    grid-gap: 0px;
+    grid-auto-flow: row;
+    grid-template-rows: min-content min-content min-content min-content auto;
+    grid-column: 2;
+    grid-row: 2 / 4;
+}
+
+.whatIDoWrapper {
+    grid-row: 1;
+    z-index: 3;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
+}
+
+.webProjectsWrapperWrapper {
+    grid-row: 3;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
+}
+
+.artProjectsWrapperWrapper {
+    grid-row: 5;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
+}
+
+.mainHeading {
+    margin: 0;
+}
+
+div.webProjectsWrapperWrapper {
+    height: 100%;
+}
+
+.subheading.row1 {
+    grid-row: 2;
+}
+
+.subheading.row2 {
+    grid-row: 4;
+}

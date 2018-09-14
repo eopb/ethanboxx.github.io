@@ -1,0 +1,24 @@
+@keyframes blur {
+    0% {
+        width: 99%;
+        height: 60%;
+    }
+    50% {
+        width: 60%;
+        height: 100%;
+    }
+    100% {
+        width: 99%;
+        height: 60%;
+    }
+}
+
+@media screen {
+    @supports not (-ms-ime-align: auto) {
+        iframe {
+            margin: auto;
+            animation: 4s ease-out 0s 1 blur;
+            animation-iteration-count: infinite;
+        }
+    }
+}

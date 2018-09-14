@@ -1,0 +1,49 @@
+@import url('desktop/layoutDesktop.css') (orientation:landscape);
+@import url('mobile/layoutMobile.css') (orientation:portrait);
+.whatIDo {
+    height: 100%;
+    display: grid;
+}
+
+.whatIDoCell {
+    transition: 1s;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: auto min-content;
+    /* display: block; */
+    padding: 5px;
+}
+
+div.whatIDo img {
+    height: 100%;
+    margin: auto;
+}
+
+@media (min-width: 600px) {
+    .whatIDo {
+        grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+        margin: auto;
+        grid-gap: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .whatIDo {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(auto-fit);
+        grid-auto-flow: row;
+        margin: auto;
+        grid-gap: auto;
+        grid-gap: 10px;
+    }
+}
+
+.whatIDoTest {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto min-content auto;
+}
+
+.whatIDoCell {
+    grid-column: 2;
+}
