@@ -39,8 +39,3 @@ div.webProjectsWrapper {
     grid-template-rows: min-content min-content auto;
     grid-template-columns: auto auto auto;
 }
-
-div.webProjectsWrapperWrapper,
-.row1 {
-    display: none;
-}
