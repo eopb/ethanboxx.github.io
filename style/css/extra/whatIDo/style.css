@@ -29,12 +29,6 @@ div.whatIDo p {
     margin: 0;
 }
 
-.whatIDoCell {
-    font-size: 30px;
-    height: 20vw;
-    width: 20vw;
-}
-
 @media (min-width: 1400px) {
     div.leftWhatIDo {
         transition-duration: 1s;
