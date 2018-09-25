@@ -4,6 +4,7 @@ body {
     background-color: #000;
     margin: 0;
     min-height: 100vh;
+    font-family: openSans;
 }
 
 .verticalName,
@@ -34,6 +35,38 @@ footer a {
 
 footer {
     padding: 10px;
+}
+
+article {
+    color: #fff;
+    background-color: #000;
+}
+
+article.littleabout {
+    color: #fff;
+    background-color: #111;
+    background: linear-gradient( rgba(0, 0, 0, 1) 0%, rgba(17, 17, 17, 1) 10%, rgba(17, 17, 17, 1) 100%);
+    padding: 0;
+    margin: 0;
+}
+
+article.littleabout h2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    font-size: 35px;
+    font-family: openSansLight;
+}
+
+article.littleabout h2 strong {
+    font-family: openSansBold;
+}
+
+img.septri {
+    width: 100%;
+    height: 50px;
 }
 
 @supports (display: grid) {
@@ -99,8 +132,16 @@ article.gallery {
 }
 
 figure img {
+    transition: 1s ease-out;
+    overflow: hidden;
     width: 100%;
-    filter: grayscale(100%);
+    filter: grayscale(100%) blur(5px);
+    margin: 0;
+    padding: 0;
+}
+
+figure img:hover {
+    filter: grayscale(0%) blur(0);
 }
 
 figcaption {
@@ -108,9 +149,6 @@ figcaption {
     text-align: center;
     color: #000;
     background-color: #fff;
-}
-
-figcaption {
     font-size: 20px;
     margin: 0;
     padding: 0;
@@ -131,6 +169,7 @@ figure {
     max-width: 500px;
     transition: all 2s;
     height: auto;
+    overflow: hidden;
     transition-duration: 1s;
 }
 
@@ -154,6 +193,16 @@ figure {
 @font-face {
     font-family: openSansLight;
     src: url("../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: openSansBold;
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: openSans;
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
 }
 
 @font-face {
