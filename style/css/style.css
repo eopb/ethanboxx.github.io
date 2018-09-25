@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+    background-color: #fff;
     margin: 0;
     display: grid;
     grid-gap: 0px;
@@ -33,6 +33,12 @@ footer a {
     grid-row: 2;
 }
 
+.verticalName {
+    writing-mode: vertical-rl;
+    /* text-orientation: upright; */
+    margin: 0;
+}
+
 .mainHeading {
     grid-column: 2;
 }
@@ -55,22 +61,15 @@ artical {
     margin: 0;
 }
 
-.verticalName {
-    writing-mode: vertical-rl;
-    /* text-orientation: upright; */
-    margin: 0;
-}
-
 .verticalName,
 .mainHeading,
 .cornerBackground,
 .aside {
-    transition: 1s;
     z-index: 1;
-    background-color: #aaaaaa;
-    mix-blend-mode: screen;
-    text-shadow: 0 0 5px black;
+    background-color: #000;
     font-family: headingText;
+    color: #fff;
+    text-shadow: 0 0 5px black;
 }
 
 @media only screen and (min-width: 380px) {
@@ -118,52 +117,10 @@ div.subheading h1 {
     margin: 0 0 0 0;
 }
 
-:root {
-    --galleryCellShadow: rgb(0, 0, 0);
-    --paraFontSize: 30px;
-    --subHeadingFontSize: 50px;
-}
-
 .verticalName {
     writing-mode: vertical-rl;
     /* text-orientation: upright; */
     margin: 0;
-}
-
-.verticalName,
-.mainHeading,
-.cornerBackground,
-.aside {
-    transition: 1s;
-    z-index: 1;
-    background-color: #aaaaaa;
-    mix-blend-mode: screen;
-    text-shadow: 0 0 5px black;
-    font-family: headingText;
-}
-
-@media only screen and (min-width: 380px) {
-    .verticalName,
-    .mainHeading,
-    .cornerBackground,
-    .aside {
-        font-size: 50px;
-    }
-    div.socialIcons {
-        font-size: 25px;
-    }
-}
-
-@media only screen and (max-width: 380px) {
-    .verticalName,
-    .mainHeading,
-    .cornerBackground,
-    .aside {
-        font-size: 12vw;
-    }
-    div.socialIcons {
-        font-size: 7vw;
-    }
 }
 
 div.subheading h1 {
@@ -220,28 +177,6 @@ div.webProjectsWrapperWrapper {
 @font-face {
     font-family: paraText;
     src: url("../fonts/Roboto/Roboto-Regular.ttf");
-}
-
-.button {
-    display: block;
-    font-family: openSansLight;
-    box-sizing: border-box;
-    text-align: center;
-    width: auto;
-    background-color: #61616100;
-    border: 2px solid white;
-    color: white;
-    font-weight: bold;
-    padding: 5px 70px 5px 70px;
-    text-decoration: none;
-    font-size: 50px;
-    padding: auto;
-    transition: 1s;
-    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
-}
-
-.button:hover {
-    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 8px;
 }
 
 div.socialIcons a {
