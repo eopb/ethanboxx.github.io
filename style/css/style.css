@@ -179,138 +179,20 @@ div.webProjectsWrapperWrapper {
     src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
 
-div.socialIcons a {
-    transform: perspective(60px) rotateX(0deg) translateZ(0px);
-    transition-duration: 1s;
-}
-
-div.socialIcons a:hover {
-    transform: perspective(60px) rotateX(30deg) translateZ(10px);
-    z-index: 10;
-}
-
-div.socialIcons a:active {
-    transform: perspective(1000px) rotateX(180deg) translateZ(0);
-}
-
-.whatIDoWrapper {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.whatIDoCell {
-    font-family: robotoLight;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: #61616100;
-    border: 2px solid white;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 30px;
-}
-
-div.whatIDo img {
-    filter: invert(100%);
-    opacity: 0.7;
-}
-
-div.whatIDo p {
-    margin: 0;
-}
-
-@media (min-width: 1400px) {
-    div.leftWhatIDo {
-        transition-duration: 1s;
-        transform-origin: right center;
-        transform: perspective(1000px) rotateY(-35deg) translateZ(0px);
-    }
-    div.rightWhatIDo {
-        transition-duration: 1s;
-        transform-origin: left center;
-        transform: perspective(1000px) rotateY(35deg) translateZ(0px);
-    }
-    div.leftWhatIDo:hover {
-        transform: perspective(1000px) rotateY(0deg) translateZ(0px);
-    }
-    div.rightWhatIDo:hover {
-        transform: perspective(1000px) rotateY(0deg) translateZ(0px);
-    }
-    @keyframes leftWhatIDo {
-        0% {
-            transform-origin: right center;
-            transform: perspective(1000px) rotateX(0deg) translateZ(0px);
-        }
-        100% {
-            transform-origin: right center;
-            transform: perspective(1000px) rotateY(-35deg) translateZ(0px);
-        }
-    }
-    @keyframes rightWhatIDo {
-        0% {
-            transform-origin: left center;
-            transform: perspective(1000px) rotateX(0deg) translateZ(0px);
-        }
-        100% {
-            transform-origin: left center;
-            transform: perspective(1000px) rotateY(35deg) translateZ(0px);
-        }
-    }
-    @media screen and (-webkit-min-device-pixel-ratio:0) {
-        @supports not (-ms-ime-align: auto) {
-            div.leftWhatIDo {
-                animation: 2s ease-out 0s 1 leftWhatIDo;
-            }
-            div.rightWhatIDo {
-                animation: 2s ease-out 0s 1 rightWhatIDo;
-            }
-        }
-    }
-}
-
-div.galleryCell {
+figure {
     transform-style: preserve-3d;
     box-shadow: 0px 0px 20px var(--galleryCellShadow);
     transform: perspective(300px) rotateX(0deg) translateZ(0px);
     transition-duration: 1s;
 }
 
-div.galleryCell:hover {
-    transform-style: preserve-3d;
-    box-shadow: 0px 50px 100px var(--galleryCellShadow);
-    transform: perspective(300px) rotateX(12.5deg) translateZ(10px);
-    z-index: 10;
-}
-
-div.galleryCell:active {
-    filter: blur(300px);
-    box-shadow: 0px 50px 20px rgba(0, 0, 0, 0);
-    transform: perspective(300px) rotateX(12.5deg) translateZ(10px);
-}
-
-div.galleryCell img {
+figure img {
     transform-style: preserve-3d;
     transform: perspective(300px) rotateX(0deg) translateZ(0px);
     filter: blur(0px);
     filter: grayscale(80%);
     box-shadow: 0px 0px 20px var(--galleryCellShadow);
     transition-duration: 1s;
-}
-
-div.galleryCell:hover img {
-    transform-style: preserve-3d;
-    filter: blur(0);
-    filter: grayscale(0);
-    box-shadow: 0px 10px 40px var(--galleryCellShadow);
-    transform: perspective(300px) rotateX(0deg) translateZ(10px);
-}
-
-div.galleryCell:active img {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0);
-    filter: grayscale(0);
-    transform: perspective(300px) rotateX(0deg) translateZ(0px);
 }
 
 div.artProjectsWrapperWrapper {
@@ -323,7 +205,7 @@ div.artProjectsWrapperWrapper h2 {
     font-family: paraText;
 }
 
-div.galleryCell {
+figure {
     margin: 10px;
     padding: 0px;
     border-radius: 20px;
@@ -335,44 +217,14 @@ div.galleryCell {
     transition-duration: 1s;
 }
 
-div.galleryCell img {
+figure img {
     border-radius: 19px 19px 1.5px 1.5px;
     width: 100%;
 }
 
-div.galleryCell p {
+figcaption {
     transition: 1s;
     margin: 1px;
     text-align: center;
     font-size: 30px;
-}
-
-@media (max-width: 600px) {
-    div.galleryCell p {
-        font-size: 4vw;
-    }
-}
-
-
-/* div.artProjectsWrapperWrapper p {
-    transform-origin: left center;
-    transform: perspective(4000px) rotateY(40deg) translateZ(-30px);
-} */
-
-.artProjectsWrapperWrapper p {
-    font-size: var(--paraFontSize);
-}
-
-@media (min-width: 600px) {
-    div.mainContentGallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-    }
-}
-
-@media (max-width: 600px) {
-    div.mainContentGallery {
-        grid-auto-flow: row;
-        grid-template-rows: auto;
-    }
 }
