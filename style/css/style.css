@@ -84,7 +84,6 @@ footer {
         article {
             grid-column: 2;
             grid-row: 2 / 4;
-            min-height: min-content;
             overflow: hidden;
         }
     }
@@ -92,28 +91,6 @@ footer {
 
 
 /* Gallery */
-
-section.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 50px;
-    width: 100%;
-    margin: auto;
-}
-
-figure {
-    display: block;
-    width: 300px;
-    height: 300px;
-    transform-style: preserve-3d;
-    box-shadow: 0px 0px 20px var(--galleryCellShadow);
-    transform: perspective(300px) rotateX(0deg) translateZ(0px);
-    transition-duration: 1s;
-}
-
-figure img {}
-
-figure {}
 
 figure img {
     width: 100%;
@@ -125,6 +102,40 @@ figcaption {
     margin: 1px;
     text-align: center;
     font-size: 30px;
+}
+
+@supports not (display: grid) {
+    section.gallery {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        transition: all 2s;
+    }
+    figure {
+        flex-shrink: 10%;
+        display: block;
+        min-width: 300px;
+        max-width: 500px;
+        transition: all 2s;
+        height: auto;
+        transition-duration: 1s;
+    }
+}
+
+@supports (display: grid) {
+    section.gallery {
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+    }
+    figure {
+        min-width: 300px;
+        max-width: 500px;
+        height: auto;
+        margin: 0;
+    }
 }
 
 
