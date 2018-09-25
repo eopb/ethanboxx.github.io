@@ -1,3 +1,5 @@
+/* main layout */
+
 body {
     background-color: #fff;
     margin: 0;
@@ -20,9 +22,6 @@ aside {
 
 footer a {
     margin-bottom: 5px;
-}
-
-footer a {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -74,69 +73,19 @@ aside {
     color: #fff;
 }
 
-@media only screen and (min-width: 380px) {
-    .verticalName,
-    .mainHeading,
-    .cornerBackground,
-    .aside {
-        font-size: 50px;
-    }
-    div.socialIcons {
-        font-size: 25px;
-    }
+.verticalName,
+.mainHeading,
+.cornerBackground,
+.aside {
+    font-size: 50px;
 }
 
-@media only screen and (max-width: 380px) {
-    .verticalName,
-    .mainHeading,
-    .cornerBackground,
-    .aside {
-        font-size: 12vw;
-    }
-    div.socialIcons {
-        font-size: 7vw;
-    }
+div.socialIcons {
+    font-size: 25px;
 }
 
-div.subheading {
-    font-family: subheadingText;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
-    z-index: 10;
-}
 
-div.subheading h1 {
-    font-size: 55px;
-}
-
-.mainHeading {
-    margin: 0;
-}
-
-@font-face {
-    font-family: openSansLight;
-    src: url("../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf");
-}
-
-@font-face {
-    font-family: robotoLight;
-    src: url("../fonts/Roboto/Roboto-Thin.ttf");
-}
-
-@font-face {
-    font-family: subheadingText;
-    src: url("../fonts/Roboto/Roboto-Medium.ttf");
-}
-
-@font-face {
-    font-family: headingText;
-    src: url("../fonts/unused/Monoton/Monoton-Regular.ttf");
-}
-
-@font-face {
-    font-family: paraText;
-    src: url("../fonts/Roboto/Roboto-Regular.ttf");
-}
+/* Gallery */
 
 figure {
     transform-style: preserve-3d;
@@ -176,4 +125,32 @@ figcaption {
     margin: 1px;
     text-align: center;
     font-size: 30px;
+}
+
+
+/* fonts */
+
+@font-face {
+    font-family: openSansLight;
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: robotoLight;
+    src: url("../fonts/Roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: subheadingText;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: headingText;
+    src: url("../fonts/unused/Monoton/Monoton-Regular.ttf");
+}
+
+@font-face {
+    font-family: paraText;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
