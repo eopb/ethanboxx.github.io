@@ -18,22 +18,25 @@ aside {
     grid-column: 1;
 }
 
+footer a {
+    margin-bottom: 5px;
+}
+
+footer a {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 footer {
     display: grid;
     grid-auto-flow: row;
     grid-row: 2;
 }
 
-footer a {
-    margin: auto;
-}
-
 .verticalName {
     grid-column: 1;
     grid-row: 2;
-}
-
-.verticalName {
     writing-mode: vertical-rl;
     /* text-orientation: upright; */
     margin: 0;
@@ -48,7 +51,7 @@ footer a {
     grid-row: 1;
 }
 
-artical {
+article {
     display: grid;
     grid-gap: 0px;
     grid-auto-flow: row;
@@ -64,12 +67,11 @@ artical {
 .verticalName,
 .mainHeading,
 .cornerBackground,
-.aside {
+aside {
     z-index: 1;
     background-color: #000;
     font-family: headingText;
     color: #fff;
-    text-shadow: 0 0 5px black;
 }
 
 @media only screen and (min-width: 380px) {
@@ -96,15 +98,6 @@ artical {
     }
 }
 
-div.subheading h1 {
-    font-size: 55px;
-}
-
-div.webProjectsWrapper p,
-.artProjectsWrapperWrapper p {
-    text-align: justify;
-}
-
 div.subheading {
     font-family: subheadingText;
     background-color: rgb(255, 255, 255);
@@ -113,45 +106,11 @@ div.subheading {
 }
 
 div.subheading h1 {
-    padding: 10px;
-    margin: 0 0 0 0;
-}
-
-.verticalName {
-    writing-mode: vertical-rl;
-    /* text-orientation: upright; */
-    margin: 0;
-}
-
-div.subheading h1 {
     font-size: 55px;
-}
-
-div.webProjectsWrapper p,
-.artProjectsWrapperWrapper p {
-    text-align: justify;
-}
-
-.artProjectsWrapperWrapper {
-    grid-row: 5;
-    z-index: 2;
-    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
 }
 
 .mainHeading {
     margin: 0;
-}
-
-div.webProjectsWrapperWrapper {
-    height: 100%;
-}
-
-.subheading.row1 {
-    grid-row: 2;
-}
-
-.subheading.row2 {
-    grid-row: 4;
 }
 
 @font-face {
@@ -193,16 +152,6 @@ figure img {
     filter: grayscale(80%);
     box-shadow: 0px 0px 20px var(--galleryCellShadow);
     transition-duration: 1s;
-}
-
-div.artProjectsWrapperWrapper {
-    background-color: rgb(37, 37, 37);
-    color: #fff;
-}
-
-div.artProjectsWrapperWrapper p,
-div.artProjectsWrapperWrapper h2 {
-    font-family: paraText;
 }
 
 figure {
