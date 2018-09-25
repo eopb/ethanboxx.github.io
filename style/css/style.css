@@ -1,12 +1,77 @@
-@import url('desktop/styleDesktop.css') (orientation:landscape);
-@import url('mobile/styleMobile.css') (orientation:portrait);
-@import url('layout.css');
-@import url('subheading.css');
-@import url('extra/whatIDo/style.css');
-@import url('extra/webProjectsWrapper/style.css');
-@import url('extra/artProjectsWrapper/style.css');
-@import url('animation.css');
-@import url('mix.css');
+body {
+    background-color: #000;
+    background-size: cover;
+}
+
+.verticalName {
+    writing-mode: vertical-rl;
+    /* text-orientation: upright; */
+    margin: 0;
+}
+
+.verticalName,
+.mainHeading,
+.cornerBackground,
+.aside {
+    transition: 1s;
+    z-index: 1;
+    background-color: #aaaaaa;
+    mix-blend-mode: screen;
+    text-shadow: 0 0 5px black;
+    font-family: headingText;
+}
+
+@media only screen and (min-width: 380px) {
+    .verticalName,
+    .mainHeading,
+    .cornerBackground,
+    .aside {
+        font-size: 50px;
+    }
+    div.socialIcons {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .verticalName,
+    .mainHeading,
+    .cornerBackground,
+    .aside {
+        font-size: 12vw;
+    }
+    div.socialIcons {
+        font-size: 7vw;
+    }
+}
+
+div.subheading h1 {
+    font-size: 55px;
+}
+
+div.webProjectsWrapper p,
+.artProjectsWrapperWrapper p {
+    text-align: justify;
+}
+
+div.subheading {
+    font-family: subheadingText;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
+    z-index: 10;
+}
+
+div.subheading h1 {
+    padding: 10px;
+    margin: 0 0 0 0;
+}
+
+:root {
+    --galleryCellShadow: rgb(0, 0, 0);
+    --paraFontSize: 30px;
+    --subHeadingFontSize: 50px;
+}
+
 body {
     background-image: url("../../private/images/banner.jpg");
     background-size: cover;
@@ -66,4 +131,87 @@ div.subheading h1 {
 div.webProjectsWrapper p,
 .artProjectsWrapperWrapper p {
     text-align: justify;
+}
+
+.artProjectsWrapperWrapper {
+    grid-row: 5;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
+}
+
+.mainHeading {
+    margin: 0;
+}
+
+div.webProjectsWrapperWrapper {
+    height: 100%;
+}
+
+.subheading.row1 {
+    grid-row: 2;
+}
+
+.subheading.row2 {
+    grid-row: 4;
+}
+
+@font-face {
+    font-family: openSansLight;
+    src: url("../fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: robotoLight;
+    src: url("../fonts/Roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: subheadingText;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: headingText;
+    src: url("../fonts/unused/Monoton/Monoton-Regular.ttf");
+}
+
+@font-face {
+    font-family: paraText;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+.button {
+    display: block;
+    font-family: openSansLight;
+    box-sizing: border-box;
+    text-align: center;
+    width: auto;
+    background-color: #61616100;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 5px 70px 5px 70px;
+    text-decoration: none;
+    font-size: 50px;
+    padding: auto;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 15px;
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, 0.6) 1px 1px 8px;
+}
+
+div.socialIcons a {
+    transform: perspective(60px) rotateX(0deg) translateZ(0px);
+    transition-duration: 1s;
+}
+
+div.socialIcons a:hover {
+    transform: perspective(60px) rotateX(30deg) translateZ(10px);
+    z-index: 10;
+}
+
+div.socialIcons a:active {
+    transform: perspective(1000px) rotateX(180deg) translateZ(0);
 }
