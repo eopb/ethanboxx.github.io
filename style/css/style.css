@@ -145,7 +145,7 @@ figure img:hover {
 }
 
 figcaption {
-    transition: 1s;
+    transition: 0.2s;
     text-align: center;
     color: #000;
     background-color: #fff;
