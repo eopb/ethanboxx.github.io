@@ -7,7 +7,7 @@
 @import url('extra/artProjectsWrapper/style.css');
 @import url('animation.css');
 @import url('mix.css');
-div.fullBodyDiv {
+body {
     background-image: url("../../private/images/banner.jpg");
     background-size: cover;
 }
@@ -26,7 +26,7 @@ body {
 .verticalName,
 .mainHeading,
 .cornerBackground,
-.socialIconsWrapper {
+.aside {
     transition: 1s;
     z-index: 1;
     background-color: #aaaaaa;
@@ -39,7 +39,7 @@ body {
     .verticalName,
     .mainHeading,
     .cornerBackground,
-    .socialIconsWrapper {
+    .aside {
         font-size: 50px;
     }
     div.socialIcons {
@@ -51,7 +51,7 @@ body {
     .verticalName,
     .mainHeading,
     .cornerBackground,
-    .socialIconsWrapper {
+    .aside {
         font-size: 12vw;
     }
     div.socialIcons {

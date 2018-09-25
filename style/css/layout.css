@@ -1,70 +1,71 @@
-@import url('desktop/layoutDesktop.css') (orientation:landscape);
-@import url('mobile/layoutMobile.css') (orientation:portrait);
+@import url('desktop/styleDesktop.css') (orientation:landscape);
+@import url('mobile/styleMobile.css') (orientation:portrait);
+@import url('layout.css');
+@import url('subheading.css');
+@import url('extra/whatIDo/style.css');
+@import url('extra/webProjectsWrapper/style.css');
+@import url('extra/artProjectsWrapper/style.css');
+@import url('animation.css');
+@import url('mix.css');
 body {
-    margin: 0;
+    background-image: url("../../private/images/banner.jpg");
+    background-size: cover;
 }
 
-div.fullBodyDiv {
-    display: grid;
-    grid-gap: 0px;
-    grid-auto-flow: column;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-}
-
-div.socialIconsWrapper {
-    display: grid;
-    grid-gap: 0;
-    grid-auto-flow: row;
-    grid-template-rows: auto min-content;
-    height: 100%;
-    grid-row: 3;
-    grid-column: 1;
-}
-
-div.socialIcons {
-    display: grid;
-    grid-auto-flow: row;
-    grid-row: 2;
-}
-
-div.socialIcons a {
-    margin: auto;
+body {
+    background-image: url("../../private/images/banner.jpg");
+    background-size: cover;
 }
 
 .verticalName {
-    grid-column: 1;
-    grid-row: 2;
+    writing-mode: vertical-rl;
+    /* text-orientation: upright; */
+    margin: 0;
 }
 
-.mainHeading {
-    grid-column: 2;
+.verticalName,
+.mainHeading,
+.cornerBackground,
+.aside {
+    transition: 1s;
+    z-index: 1;
+    background-color: #aaaaaa;
+    mix-blend-mode: screen;
+    text-shadow: 0 0 5px black;
+    font-family: headingText;
 }
 
-.cornerBackground {
-    grid-column: 1;
-    grid-row: 1;
+@media only screen and (min-width: 380px) {
+    .verticalName,
+    .mainHeading,
+    .cornerBackground,
+    .aside {
+        font-size: 50px;
+    }
+    div.socialIcons {
+        font-size: 25px;
+    }
 }
 
-.areaWrappers {
-    display: grid;
-    grid-gap: 0px;
-    grid-auto-flow: row;
-    grid-template-rows: min-content min-content min-content min-content auto;
-    grid-column: 2;
-    grid-row: 2 / 4;
+@media only screen and (max-width: 380px) {
+    .verticalName,
+    .mainHeading,
+    .cornerBackground,
+    .aside {
+        font-size: 12vw;
+    }
+    div.socialIcons {
+        font-size: 7vw;
+    }
 }
 
-.whatIDoWrapper {
-    grid-row: 1;
-    z-index: 3;
-    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
+div.subheading h1 {
+    font-size: 55px;
 }
 
-.webProjectsWrapperWrapper {
-    grid-row: 3;
-    z-index: 2;
-    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 20px;
+div.webProjectsWrapper p,
+.artProjectsWrapperWrapper p {
+    text-align: justify;
 }
 
 .artProjectsWrapperWrapper {
