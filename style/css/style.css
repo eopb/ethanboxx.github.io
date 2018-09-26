@@ -255,7 +255,7 @@ section.projects article p img {
     margin-left: 5px;
     margin-right: 5px;
     transition: 0.5s;
-    filter: grayscale(100%);
+    filter: grayscale(95%);
 }
 
 section.projects article p img:hover {
