@@ -5,3 +5,17 @@ body {
     margin: 0;
     font-family: openSans;
 }
+
+figure img {
+    max-height: 90vh;
+    max-width: 90vw;
+    margin: auto;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+figure {
+    display: grid;
+    grid-template-rows: auto min-content auto;
+    grid-template-columns: auto min-content auto;
+}
