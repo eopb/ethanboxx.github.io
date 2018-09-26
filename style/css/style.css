@@ -131,9 +131,10 @@ img.septri {
 
 /* Gallery */
 
-article.gallery {
+section.gallery {
     color: rgb(255, 255, 255);
     background-color: #000;
+    margin-bottom: 10px;
 }
 
 figure img {
