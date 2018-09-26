@@ -6,14 +6,6 @@ body {
     font-family: openSans;
 }
 
-figure img {
-    max-height: 90vh;
-    max-width: 90vw;
-    margin: auto;
-    grid-row: 2;
-    grid-column: 2;
-}
-
 figure {
     margin: 0;
     display: grid;
@@ -21,9 +13,31 @@ figure {
     grid-template-columns: auto min-content auto;
 }
 
+figure figcaption {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 10px;
+}
+
+figure img,
+figure video {
+    max-height: 90vh;
+    max-width: 90vw;
+    margin: auto;
+    grid-row: 2;
+    grid-column: 2;
+    border-radius: 0;
+    transition: 1s;
+}
+
+figure img:hover,
+figure video:hover {
+    border-radius: 20px;
+}
+
 nav {
     display: grid;
-    grid-template-rows: 50px min-content 50px;
+    grid-template-rows: 30px min-content 30px;
     grid-template-columns: auto 300px auto;
 }
 
