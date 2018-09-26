@@ -18,6 +18,7 @@ aside {
     font-family: headingText;
     color: #fff;
     -webkit-font-smoothing: subpixel-antialiased;
+    transition: 1s;
 }
 
 .verticalName,
@@ -50,6 +51,7 @@ article.littleabout {
     background: linear-gradient( rgba(0, 0, 0, 1) 0%, rgba(17, 17, 17, 1) 10%, rgba(17, 17, 17, 1) 100%);
     padding: 0;
     margin: 0;
+    transition: 1s;
 }
 
 article.littleabout h2 {
@@ -60,6 +62,7 @@ article.littleabout h2 {
     margin: 0;
     font-size: 35px;
     font-family: openSansLight;
+    transition: 1s;
 }
 
 article.littleabout h2 strong {
@@ -154,6 +157,7 @@ figcaption {
     font-size: 20px;
     margin: 0;
     padding: 0;
+    transition: 1s;
 }
 
 section.gallery {
@@ -173,6 +177,7 @@ figure {
     height: auto;
     overflow: hidden;
     transition-duration: 1s;
+    transition: 1s;
 }
 
 @supports (display: grid) {
