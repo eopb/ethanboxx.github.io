@@ -238,10 +238,17 @@ article.littleabout h2 strong {
 /* Projects */
 
 section.projects article {
+    padding: 5px;
+    margin-bottom: 10px;
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: auto min-content;
     grid-template-rows: min-content min-content;
+    background-color: #111;
+}
+
+section.projects article h2 {
+    font-size: 30px;
 }
 
 section.projects article nav {
