@@ -98,6 +98,7 @@ img.septri {
             height: 100%;
             grid-row: 3;
             grid-column: 1;
+            font-size: 20px;
         }
         footer {
             padding: 0;
