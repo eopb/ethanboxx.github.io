@@ -35,17 +35,13 @@ nav .button {
 .button {
     display: block;
     font-family: openSansLight;
-    box-sizing: border-box;
     text-align: center;
-    width: auto;
-    background-color: #61616100;
-    border: 2px solid white;
-    color: white;
-    font-weight: bold;
+    background-color: #000000;
+    border: 2px solid #fff;
+    color: #fff;
     padding: 5px 70px 5px 70px;
     text-decoration: none;
     font-size: 50px;
-    padding: auto;
     transition: 1s;
 }
 
