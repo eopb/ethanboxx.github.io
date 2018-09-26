@@ -244,11 +244,22 @@ section.projects article {
     grid-auto-flow: row;
     grid-template-columns: auto min-content;
     grid-template-rows: min-content min-content;
-    background-color: #111;
+    background-color: #1a1a1a;
 }
 
 section.projects article h2 {
     font-size: 30px;
+}
+
+section.projects article p img {
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.5s;
+    filter: grayscale(100%);
+}
+
+section.projects article p img:hover {
+    filter: grayscale(0);
 }
 
 section.projects article nav {
