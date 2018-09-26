@@ -80,6 +80,10 @@ img.septri {
     height: 50px;
 }
 
+a {
+    text-decoration: none;
+}
+
 @supports (display: grid) {
     @media only screen and (min-width: 600px) {
         body {
