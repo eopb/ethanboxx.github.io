@@ -233,3 +233,27 @@ article.littleabout h2 strong {
         font-size: 35px;
     }
 }
+
+
+/* Projects */
+
+section.projects article {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto min-content;
+    grid-template-rows: min-content min-content;
+}
+
+section.projects article nav {
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+section.projects article nav a {
+    margin: auto;
+}
