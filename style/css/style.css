@@ -9,6 +9,21 @@ body {
     font-family: openSans;
 }
 
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 19px;
+    transition: 1s;
+}
+
+@media only screen and (min-width: 600px) {
+    p {
+        font-size: 22px;
+    }
+}
+
 .verticalName,
 .mainHeading,
 .cornerBackground,
@@ -24,8 +39,23 @@ aside {
 .verticalName,
 .mainHeading,
 .cornerBackground {
-    font-size: 50px;
-    margin: 0;
+    font-size: 40px;
+    margin-right: 0;
+    margin-left: 6px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .verticalName,
+    .mainHeading,
+    .cornerBackground {
+        font-size: 50px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
 }
 
 div.socialIcons {
@@ -43,30 +73,6 @@ footer {
 article {
     color: #fff;
     background-color: #000;
-}
-
-article.littleabout {
-    color: #fff;
-    background-color: #222;
-    background: linear-gradient( rgba(0, 0, 0, 1) 0%, #222 10%, #222 100%);
-    padding: 0;
-    margin: 0;
-    transition: 1s;
-}
-
-article.littleabout h2 {
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0;
-    font-size: 35px;
-    font-family: openSansLight;
-    transition: 1s;
-}
-
-article.littleabout h2 strong {
-    font-family: openSansBold;
 }
 
 img.septri {
@@ -192,5 +198,38 @@ figure {
         max-width: 100%;
         height: auto;
         margin: 0;
+    }
+}
+
+
+/* A little about */
+
+article.littleabout {
+    color: #fff;
+    background-color: #222;
+    background: linear-gradient( rgba(0, 0, 0, 1) 0%, #222 10%, #222 100%);
+    padding: 0;
+    margin: 0;
+    transition: 1s;
+}
+
+article.littleabout h2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    font-size: 30px;
+    font-family: openSansLight;
+    transition: 1s;
+}
+
+article.littleabout h2 strong {
+    font-family: openSansBold;
+}
+
+@media only screen and (min-width: 600px) {
+    article.littleabout h2 {
+        font-size: 35px;
     }
 }
