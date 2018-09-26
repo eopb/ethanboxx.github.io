@@ -47,8 +47,8 @@ article {
 
 article.littleabout {
     color: #fff;
-    background-color: #111;
-    background: linear-gradient( rgba(0, 0, 0, 1) 0%, rgba(17, 17, 17, 1) 10%, rgba(17, 17, 17, 1) 100%);
+    background-color: #222;
+    background: linear-gradient( rgba(0, 0, 0, 1) 0%, #222 10%, #222 100%);
     padding: 0;
     margin: 0;
     transition: 1s;
