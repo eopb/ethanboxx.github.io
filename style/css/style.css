@@ -80,6 +80,10 @@ img.septri {
     height: 50px;
 }
 
+a {
+    text-decoration: none;
+}
+
 @supports (display: grid) {
     @media only screen and (min-width: 600px) {
         body {
@@ -98,6 +102,7 @@ img.septri {
             height: 100%;
             grid-row: 3;
             grid-column: 1;
+            font-size: 20px;
         }
         footer {
             padding: 0;
@@ -232,4 +237,46 @@ article.littleabout h2 strong {
     article.littleabout h2 {
         font-size: 35px;
     }
+}
+
+
+/* Projects */
+
+section.projects article {
+    padding: 5px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto min-content;
+    grid-template-rows: min-content min-content;
+    background-color: #1a1a1a;
+}
+
+section.projects article h2 {
+    font-size: 30px;
+}
+
+section.projects article p img {
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.5s;
+    filter: grayscale(95%);
+}
+
+section.projects article p img:hover {
+    filter: grayscale(0);
+}
+
+section.projects article nav {
+    grid-column: 2;
+    grid-row: 1;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+section.projects article nav a {
+    margin: auto;
 }
