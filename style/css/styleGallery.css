@@ -11,6 +11,7 @@ figure {
     display: grid;
     grid-template-rows: auto min-content auto;
     grid-template-columns: auto min-content auto;
+    margin-bottom: 5px;
 }
 
 figure figcaption {
