@@ -234,14 +234,12 @@ article.littleabout h2 strong {
     font-family: openSansBold;
 }
 
-article.littleabout h2 strong a {
-    text-decoration: none;
-}
-
+article.littleabout h2 strong a,
 article.littleabout h2 strong a:visited,
 article.littleabout h2 strong a:active,
 article.littleabout h2 strong a:hover {
     color: #fff;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 600px) {
