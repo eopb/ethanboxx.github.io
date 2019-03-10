@@ -8,7 +8,8 @@ body
     min-height: 100vh
     font-family: openSans
     scroll-behavior: smooth
-
+    &:before
+        
 
 h1
     font-size: 30px
@@ -17,12 +18,9 @@ h1
 p
     font-size: 19px
     transition: 1s
-
-
-@media only screen and (min-width: 600px)
-    p
+    @media only screen and (min-width: 600px)
         font-size: 22px
-    
+
 
 
 .verticalName,
@@ -45,31 +43,20 @@ aside
     margin-left: 6px
     margin-bottom: 0
     margin-top: 0
-
-
-@media only screen and (min-width: 600px)
-    .verticalName,
-    .mainHeading,
-    .cornerBackground
+    @media only screen and (min-width: 600px)
         font-size: 50px
         margin-right: 0
         margin-left: 0
         margin-bottom: 0
         margin-top: 0
-    
-
 
 div.socialIcons
     font-size: 25px
 
-
-footer a
-    padding: 5px
-
-
 footer
     padding: 10px
-
+    a
+        padding: 5px
 
 article
     color: #fff
@@ -94,7 +81,7 @@ a
             grid-template-rows: auto auto auto
             min-height: 100%
             min-width: 100%
-        
+
         aside
             display: grid
             grid-gap: 0
@@ -104,40 +91,39 @@ a
             grid-row: 3
             grid-column: 1
             font-size: 20px
-        
+
         footer
             padding: 0
             display: grid
             grid-auto-flow: row
             grid-row: 2
-        
-        footer a
-            padding: 0
-            margin-bottom: 5px
-            margin-top: 0
-            margin-left: auto
-            margin-right: auto
-        
+            a
+                padding: 0
+                margin-bottom: 5px
+                margin-top: 0
+                margin-left: auto
+                margin-right: auto
+
         .verticalName
             grid-column: 1
             grid-row: 2
             writing-mode: vertical-rl
             /* text-orientation: upright */
             margin: 0
-        
+
         .mainHeading
             width: 100%
             grid-column: 2
-        
+
         .cornerBackground
             grid-column: 1
             grid-row: 1
-        
+
         article
             grid-column: 2
             grid-row: 2 / 4
-        
-    
+
+
 
 
 
@@ -149,36 +135,6 @@ section.gallery
     margin-bottom: 10px
 
 
-figure img
-    transition: 1s ease-out
-    overflow: hidden
-    width: 100%
-    filter: grayscale(100%) blur(5px)
-    margin: 0
-    padding: 0
-
-
-figure img:hover
-    filter: grayscale(0%) blur(0)
-
-
-figcaption
-    transition: 0.2s
-    text-align: center
-    color: #000
-    background-color: #fff
-    font-size: 20px
-    margin: 0
-    padding: 0
-    transition: 1s
-
-
-section.gallery
-    display: flex
-    flex-wrap: wrap
-    width: 100%
-    justify-content: center
-    transition: all 2s
 
 
 figure
@@ -191,7 +147,33 @@ figure
     overflow: hidden
     transition-duration: 1s
     transition: 1s
+    img
+        transition: 1s ease-out
+        overflow: hidden
+        width: 100%
+        filter: grayscale(100%) blur(5px)
+        margin: 0
+        padding: 0
+        &:hover
+            filter: grayscale(0%) blur(0)
 
+
+figcaption
+    transition: 0.2s
+    text-align: center
+    color: #000
+    background-color: #fff
+    font-size: 20px
+    margin: 0
+    padding: 0
+    transition: 1s
+
+section.gallery
+    display: flex
+    flex-wrap: wrap
+    width: 100%
+    justify-content: center
+    transition: all 2s
 
 @supports (display: grid)
     section.gallery
@@ -199,14 +181,11 @@ figure
         grid-gap: 10px
         grid-auto-flow: row
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
-    
+
     figure
         max-width: 100%
         height: auto
         margin: 0
-    
-
-
 
 /* A little about */
 
@@ -217,37 +196,25 @@ article.littleabout
     padding: 0
     margin: 0
     transition: 1s
-
-
-article.littleabout h2
-    padding-top: 70px
-    padding-bottom: 70px
-    padding-left: 20px
-    padding-right: 20px
-    margin: 0
-    font-size: 30px
-    font-family: openSansLight
-    transition: 1s
-
-
-article.littleabout h2 strong
-    font-family: openSansBold
-
-
-article.littleabout h2 strong a,
-article.littleabout h2 strong a:visited,
-article.littleabout h2 strong a:active,
-article.littleabout h2 strong a:hover
-    color: #fff
-    text-decoration: none
-
-
-@media only screen and (min-width: 600px)
-    article.littleabout h2
-        font-size: 35px
-    
-
-
+    h2
+        padding-top: 70px
+        padding-bottom: 70px
+        padding-left: 20px
+        padding-right: 20px
+        margin: 0
+        font-size: 30px
+        font-family: openSansLight
+        transition: 1s
+        strong
+            font-family: openSansBold
+            a,
+            a:visited,
+            a:active,
+            a:hover
+                color: #fff
+                text-decoration: none
+        @media only screen and (min-width: 600px)
+            font-size: 35px
 
 /* Projects */
 
@@ -259,32 +226,22 @@ section.projects article
     grid-template-columns: auto min-content
     grid-template-rows: min-content min-content
     background-color: #1a1a1a
-
-
-section.projects article h2
-    font-size: 30px
-
-
-section.projects article p img
-    margin-left: 5px
-    margin-right: 5px
-    transition: 0.5s
-    filter: grayscale(95%)
-
-
-section.projects article p img:hover
-    filter: grayscale(0)
-
-
-section.projects article nav
-    grid-column: 2
-    grid-row: 1
-    display: grid
-    grid-auto-flow: column
-    grid-gap: 5px
-    margin-left: 5px
-    margin-right: 5px
-
-
-section.projects article nav a
-    margin: auto
+    h2
+        font-size: 30px
+    p img
+        margin-left: 5px
+        margin-right: 5px
+        transition: 0.5s
+        filter: grayscale(95%)
+        &:hover
+            filter: grayscale(0)
+    nav
+        grid-column: 2
+        grid-row: 1
+        display: grid
+        grid-auto-flow: column
+        grid-gap: 5px
+        margin-left: 5px
+        margin-right: 5px
+        a
+            margin: auto

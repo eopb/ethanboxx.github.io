@@ -44,12 +44,12 @@ p {
   font-size: 19px;
   transition: 1s;
 }
-
 @media only screen and (min-width: 600px) {
   p {
     font-size: 22px;
   }
 }
+
 .verticalName,
 .mainHeading,
 .cornerBackground,
@@ -71,7 +71,6 @@ aside {
   margin-bottom: 0;
   margin-top: 0;
 }
-
 @media only screen and (min-width: 600px) {
   .verticalName,
 .mainHeading,
@@ -83,16 +82,16 @@ aside {
     margin-top: 0;
   }
 }
+
 div.socialIcons {
   font-size: 25px;
 }
 
-footer a {
-  padding: 5px;
-}
-
 footer {
   padding: 10px;
+}
+footer a {
+  padding: 5px;
 }
 
 article {
@@ -137,7 +136,6 @@ a {
       grid-auto-flow: row;
       grid-row: 2;
     }
-
     footer a {
       padding: 0;
       margin-bottom: 5px;
@@ -177,6 +175,17 @@ section.gallery {
   margin-bottom: 10px;
 }
 
+figure {
+  flex-shrink: 10%;
+  display: block;
+  min-width: 300px;
+  max-width: 500px;
+  transition: all 2s;
+  height: auto;
+  overflow: hidden;
+  transition-duration: 1s;
+  transition: 1s;
+}
 figure img {
   transition: 1s ease-out;
   overflow: hidden;
@@ -185,7 +194,6 @@ figure img {
   margin: 0;
   padding: 0;
 }
-
 figure img:hover {
   filter: grayscale(0%) blur(0);
 }
@@ -207,18 +215,6 @@ section.gallery {
   width: 100%;
   justify-content: center;
   transition: all 2s;
-}
-
-figure {
-  flex-shrink: 10%;
-  display: block;
-  min-width: 300px;
-  max-width: 500px;
-  transition: all 2s;
-  height: auto;
-  overflow: hidden;
-  transition-duration: 1s;
-  transition: 1s;
 }
 
 @supports (display: grid) {
@@ -244,7 +240,6 @@ article.littleabout {
   margin: 0;
   transition: 1s;
 }
-
 article.littleabout h2 {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -255,11 +250,9 @@ article.littleabout h2 {
   font-family: openSansLight;
   transition: 1s;
 }
-
 article.littleabout h2 strong {
   font-family: openSansBold;
 }
-
 article.littleabout h2 strong a,
 article.littleabout h2 strong a:visited,
 article.littleabout h2 strong a:active,
@@ -267,12 +260,12 @@ article.littleabout h2 strong a:hover {
   color: #fff;
   text-decoration: none;
 }
-
 @media only screen and (min-width: 600px) {
   article.littleabout h2 {
     font-size: 35px;
   }
 }
+
 /* Projects */
 section.projects article {
   padding: 5px;
@@ -283,22 +276,18 @@ section.projects article {
   grid-template-rows: min-content min-content;
   background-color: #1a1a1a;
 }
-
 section.projects article h2 {
   font-size: 30px;
 }
-
 section.projects article p img {
   margin-left: 5px;
   margin-right: 5px;
   transition: 0.5s;
   filter: grayscale(95%);
 }
-
 section.projects article p img:hover {
   filter: grayscale(0);
 }
-
 section.projects article nav {
   grid-column: 2;
   grid-row: 1;
@@ -308,7 +297,6 @@ section.projects article nav {
   margin-left: 5px;
   margin-right: 5px;
 }
-
 section.projects article nav a {
   margin: auto;
 }
