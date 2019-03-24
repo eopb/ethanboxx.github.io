@@ -1,0 +1,65 @@
+@import "share"
+
+body
+    background-color: #000
+    color: #fff
+    margin: 0
+    font-family: openSans
+
+
+figure
+    margin: 0
+    display: grid
+    grid-template-rows: auto min-content auto
+    grid-template-columns: auto min-content auto
+    margin-bottom: 5px
+
+
+figure figcaption
+    grid-column: 2
+    grid-row: 3
+    margin: 10px
+
+
+figure img,
+figure video
+    max-height: 90vh
+    max-width: 90vw
+    margin: auto
+    grid-row: 2
+    grid-column: 2
+    border-radius: 0
+    transition: 1s
+
+
+figure img:hover,
+figure video:hover
+    border-radius: 20px
+
+
+nav
+    display: grid
+    grid-template-rows: 30px min-content 30px
+    grid-template-columns: auto 300px auto
+
+
+nav .button
+    grid-row: 2
+    grid-column: 2
+
+
+.button
+    display: block
+    font-family: openSansLight
+    text-align: center
+    background-color: #000000
+    border: 2px solid #fff
+    color: #fff
+    padding: 5px 70px 5px 70px
+    text-decoration: none
+    font-size: 50px
+    transition: 1s
+
+
+.button:hover
+    border-radius: 100px
