@@ -1,3 +1,5 @@
+**Replaced by [https://lazy.codes/](https://lazy.codes/)**
+
 # ethanboxx.github.io
 
 My website with a gallery of my art and a list of some of my git projects.
